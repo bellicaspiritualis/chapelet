@@ -17,14 +17,43 @@ namespace chapelet
         public Form1()
         {
             InitializeComponent();
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+            
             button1.Click += button1_Click;
-            button2.Click += Button2_Click;
+            credoLatineToolStripMenuItem.Click += Button2_Click;
             button3.Click += Button3_Click;
             button4.Click += Button4_Click;
-
+            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
+            wyznanieWiaryCredoToolStripMenuItem.Click += WyznanieWiaryCredoToolStripMenuItem_Click;
         }
 
+        private void WyznanieWiaryCredoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string database_connection = "Data Source=latine.db;Version=3;";
+            SQLiteConnection connection = new SQLiteConnection(database_connection);
+            connection.Open();
+            string query = string.Format("SELECT modlitwa FROM polski where id='1' ");
+            SQLiteCommand command = new SQLiteCommand(query, connection);
+            SQLiteDataReader sqReader = command.ExecuteReader();
+            try
+            {
+                while (sqReader.Read())
+                {
+                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    richTextBox1.Text = sqReader.GetString(0);
+                }
+            }
+            finally
+            {
+                sqReader.Close();
+                connection.Close();
+            }
+        }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
         private void Button3_Click(object sender, EventArgs e)
         {
@@ -38,7 +67,7 @@ namespace chapelet
             {
                 while (sqReader.Read())
                 {
-                    richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
                     richTextBox1.Text = sqReader.GetString(0);
                 }
             }
@@ -61,7 +90,7 @@ namespace chapelet
             {
                 while (sqReader.Read())
                 {
-                    richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
                     richTextBox1.Text = sqReader.GetString(0);
                 }
             }
@@ -85,7 +114,7 @@ namespace chapelet
             {
                 while (sqReader.Read())
                 {
-                    richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
                     richTextBox1.Text = sqReader.GetString(0);
                 }
             }
@@ -115,7 +144,7 @@ namespace chapelet
             {
                 while (sqReader.Read())
                 {
-                    richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
                     richTextBox1.Text = sqReader.GetString(0);
                     //
                 }
@@ -129,6 +158,15 @@ namespace chapelet
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+            //string query = string.Format("SELECT orationes FROM latin where titulus='paternoster' ");
+            //zobaczyc tuto jorge resoreccion o switchach i upodobnic zeby tylko raz ustanowic
+            //umiescic poaczenie w Form_Load jak sie wydaje
+            //polaczenie z SQLite i tylko w buttonie dawac komende sqlite + 
+            // + class'y bo bedzie tych butonow
+        }
+
+        private void paterNosterToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
