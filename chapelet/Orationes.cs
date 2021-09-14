@@ -12,9 +12,16 @@ namespace chapelet
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
 
+        //public static void ChangeText()
+        //{
+        //    myExampleForm.richTextBox1.Text = "Ave Maria!";
+        //}
+        
 
-        internal static void orationesCredoFrancais_Click(object sender, EventArgs e)
+        public static void orationesCredoFrancais_Click(object sender, EventArgs e)
         {
+            //myExampleForm.richTextBox1.Text = "Ave Maria!";
+            //string query = string.Format("SELECT modlitwa FROM polski where id='1' ");
             string database_connection = "Data Source=modlitewnik.db;Version=3;";
             SQLiteConnection connection = new SQLiteConnection(database_connection);
             connection.Open();
@@ -34,6 +41,8 @@ namespace chapelet
                 sqReader.Close();
                 connection.Close();
             }
+
         }
+
     }
 }

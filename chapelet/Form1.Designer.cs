@@ -34,23 +34,15 @@ namespace chapelet
             this.panelLewy = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,7 +62,6 @@ namespace chapelet
             this.credoLatineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aveMariaToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.paterNosterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -115,12 +106,27 @@ namespace chapelet
             this.aveMariaToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.paterNosterToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.button5 = new System.Windows.Forms.Button();
+            this.panelGoraBorderStyle = new System.Windows.Forms.Panel();
+            this.BttClose = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.BttMin = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.menuStrip4.SuspendLayout();
             this.menuStrip3.SuspendLayout();
             this.menuStrip2.SuspendLayout();
+            this.panelGoraBorderStyle.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelGora
@@ -153,7 +159,7 @@ namespace chapelet
             this.orationesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(786, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(786, 29);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -171,82 +177,38 @@ namespace chapelet
             this.printPreviewToolStripMenuItem,
             this.toolStripSeparator2,
             this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(48, 23);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(49, 25);
             this.fileToolStripMenuItem.Text = "&File";
-            // 
-            // newToolStripMenuItem
-            // 
-            this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
-            this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.newToolStripMenuItem.Text = "&New";
-            // 
-            // openToolStripMenuItem
-            // 
-            this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
-            this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.openToolStripMenuItem.Text = "&Open";
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(172, 6);
-            // 
-            // saveToolStripMenuItem
-            // 
-            this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
-            this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.saveToolStripMenuItem.Text = "&Save";
+            this.toolStripSeparator.Size = new System.Drawing.Size(181, 6);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.saveAsToolStripMenuItem.Text = "Save &As";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(172, 6);
-            // 
-            // printToolStripMenuItem
-            // 
-            this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
-            this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.printToolStripMenuItem.Text = "&Print";
-            // 
-            // printPreviewToolStripMenuItem
-            // 
-            this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
-            this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(172, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(181, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // editToolStripMenuItem
@@ -261,7 +223,7 @@ namespace chapelet
             this.toolStripSeparator4,
             this.selectAllToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 23);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 25);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // undoToolStripMenuItem
@@ -283,33 +245,6 @@ namespace chapelet
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(141, 6);
             // 
-            // cutToolStripMenuItem
-            // 
-            this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
-            this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.cutToolStripMenuItem.Text = "Cu&t";
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
-            this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.copyToolStripMenuItem.Text = "&Copy";
-            // 
-            // pasteToolStripMenuItem
-            // 
-            this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
-            this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.pasteToolStripMenuItem.Text = "&Paste";
-            // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -327,7 +262,7 @@ namespace chapelet
             this.customizeToolStripMenuItem,
             this.optionsToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 23);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 25);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
             // customizeToolStripMenuItem
@@ -351,7 +286,7 @@ namespace chapelet
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 23);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 25);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
@@ -392,7 +327,7 @@ namespace chapelet
             this.orationesToolStripMenuItem.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orationesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Info;
             this.orationesToolStripMenuItem.Name = "orationesToolStripMenuItem";
-            this.orationesToolStripMenuItem.Size = new System.Drawing.Size(80, 23);
+            this.orationesToolStripMenuItem.Size = new System.Drawing.Size(80, 25);
             this.orationesToolStripMenuItem.Text = "Orationes";
             // 
             // aveMariaToolStripMenuItem
@@ -424,7 +359,6 @@ namespace chapelet
             this.paterNosterToolStripMenuItem.Name = "paterNosterToolStripMenuItem";
             this.paterNosterToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
             this.paterNosterToolStripMenuItem.Text = "Latine";
-            this.paterNosterToolStripMenuItem.Click += new System.EventHandler(this.paterNosterToolStripMenuItem_Click);
             // 
             // credoLatineToolStripMenuItem
             // 
@@ -443,16 +377,6 @@ namespace chapelet
             this.paterNosterToolStripMenuItem1.Name = "paterNosterToolStripMenuItem1";
             this.paterNosterToolStripMenuItem1.Size = new System.Drawing.Size(150, 24);
             this.paterNosterToolStripMenuItem1.Text = "Pater Noster";
-            // 
-            // panelLewyWewnatrz
-            // 
-            this.panelLewyWewnatrz.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelLewyWewnatrz.BackgroundImage = global::chapelet.Properties.Resources.la_salette_cross_white;
-            this.panelLewyWewnatrz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelLewyWewnatrz.Location = new System.Drawing.Point(0, 303);
-            this.panelLewyWewnatrz.Name = "panelLewyWewnatrz";
-            this.panelLewyWewnatrz.Size = new System.Drawing.Size(181, 277);
-            this.panelLewyWewnatrz.TabIndex = 2;
             // 
             // button1
             // 
@@ -486,11 +410,13 @@ namespace chapelet
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Lucida Calligraphy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.richTextBox1.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(181, 47);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.ShowSelectionMargin = true;
             this.richTextBox1.Size = new System.Drawing.Size(733, 508);
             this.richTextBox1.TabIndex = 7;
@@ -572,9 +498,9 @@ namespace chapelet
             this.menuStrip4.BackColor = System.Drawing.SystemColors.Highlight;
             this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem11});
-            this.menuStrip4.Location = new System.Drawing.Point(0, 54);
+            this.menuStrip4.Location = new System.Drawing.Point(0, 66);
             this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.Size = new System.Drawing.Size(181, 27);
+            this.menuStrip4.Size = new System.Drawing.Size(181, 33);
             this.menuStrip4.TabIndex = 2;
             this.menuStrip4.Text = "menuStrip4";
             // 
@@ -583,10 +509,10 @@ namespace chapelet
             this.toolStripMenuItem11.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem12,
             this.toolStripMenuItem16});
-            this.toolStripMenuItem11.Font = new System.Drawing.Font("Papyrus", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem11.Font = new System.Drawing.Font("Papyrus", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem11.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(81, 23);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(96, 29);
             this.toolStripMenuItem11.Text = "Rosarium";
             // 
             // toolStripMenuItem12
@@ -596,25 +522,25 @@ namespace chapelet
             this.toolStripMenuItem14,
             this.toolStripMenuItem15});
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(117, 22);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(150, 30);
             this.toolStripMenuItem12.Text = "Français";
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem13.Text = "Credo";
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem14.Text = "Ave Maria";
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem15.Text = "Pater Noster";
             // 
             // toolStripMenuItem16
@@ -624,25 +550,25 @@ namespace chapelet
             this.toolStripMenuItem18,
             this.toolStripMenuItem19});
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(117, 22);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(150, 30);
             this.toolStripMenuItem16.Text = "Polski";
             // 
             // toolStripMenuItem17
             // 
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem17.Text = "Credo";
             // 
             // toolStripMenuItem18
             // 
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem18.Text = "Ave Maria";
             // 
             // toolStripMenuItem19
             // 
             this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem19.Text = "Pater Noster";
             // 
             // menuStrip3
@@ -650,9 +576,9 @@ namespace chapelet
             this.menuStrip3.BackColor = System.Drawing.SystemColors.Highlight;
             this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2});
-            this.menuStrip3.Location = new System.Drawing.Point(0, 27);
+            this.menuStrip3.Location = new System.Drawing.Point(0, 33);
             this.menuStrip3.Name = "menuStrip3";
-            this.menuStrip3.Size = new System.Drawing.Size(181, 27);
+            this.menuStrip3.Size = new System.Drawing.Size(181, 33);
             this.menuStrip3.TabIndex = 1;
             this.menuStrip3.Text = "menuStrip3";
             // 
@@ -661,10 +587,10 @@ namespace chapelet
             this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem3,
             this.toolStripMenuItem7});
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Papyrus", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem2.Font = new System.Drawing.Font("Papyrus", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(76, 23);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(89, 29);
             this.toolStripMenuItem2.Text = "Psaumes";
             // 
             // toolStripMenuItem3
@@ -674,25 +600,25 @@ namespace chapelet
             this.toolStripMenuItem5,
             this.toolStripMenuItem6});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 24);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(150, 30);
             this.toolStripMenuItem3.Text = "Français";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(162, 24);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem4.Text = "Credo";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(162, 24);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem5.Text = "Ave Maria";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(162, 24);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem6.Text = "Pater Noster";
             // 
             // toolStripMenuItem7
@@ -702,25 +628,25 @@ namespace chapelet
             this.toolStripMenuItem9,
             this.toolStripMenuItem10});
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(180, 24);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(150, 30);
             this.toolStripMenuItem7.Text = "Polski";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(162, 24);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem8.Text = "Credo";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(162, 24);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem9.Text = "Ave Maria";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(162, 24);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(187, 30);
             this.toolStripMenuItem10.Text = "Pater Noster";
             // 
             // menuStrip2
@@ -730,49 +656,50 @@ namespace chapelet
             this.toolStripMenuItem1});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(181, 27);
+            this.menuStrip2.Size = new System.Drawing.Size(181, 33);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip2";
-            this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
             // toolStripMenuItem1
             // 
+            this.toolStripMenuItem1.BackColor = System.Drawing.SystemColors.Highlight;
             this.toolStripMenuItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.orationesToolStripMenuItem2,
             this.polskiToolStripMenuItem2});
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Papyrus", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Papyrus", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(89, 23);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(106, 29);
             this.toolStripMenuItem1.Text = "Orationes";
             // 
             // orationesToolStripMenuItem2
             // 
+            this.orationesToolStripMenuItem2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.orationesToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.orationesCredoFrancais,
             this.aveMariaToolStripMenuItem4,
             this.paterNosterToolStripMenuItem2});
             this.orationesToolStripMenuItem2.Name = "orationesToolStripMenuItem2";
-            this.orationesToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
+            this.orationesToolStripMenuItem2.Size = new System.Drawing.Size(150, 30);
             this.orationesToolStripMenuItem2.Text = "Français";
             // 
             // orationesCredoFrancais
             // 
             this.orationesCredoFrancais.Name = "orationesCredoFrancais";
-            this.orationesCredoFrancais.Size = new System.Drawing.Size(180, 24);
+            this.orationesCredoFrancais.Size = new System.Drawing.Size(187, 30);
             this.orationesCredoFrancais.Text = "Credo";
             // 
             // aveMariaToolStripMenuItem4
             // 
             this.aveMariaToolStripMenuItem4.Name = "aveMariaToolStripMenuItem4";
-            this.aveMariaToolStripMenuItem4.Size = new System.Drawing.Size(180, 24);
+            this.aveMariaToolStripMenuItem4.Size = new System.Drawing.Size(187, 30);
             this.aveMariaToolStripMenuItem4.Text = "Ave Maria";
             // 
             // paterNosterToolStripMenuItem2
             // 
             this.paterNosterToolStripMenuItem2.Name = "paterNosterToolStripMenuItem2";
-            this.paterNosterToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
+            this.paterNosterToolStripMenuItem2.Size = new System.Drawing.Size(187, 30);
             this.paterNosterToolStripMenuItem2.Text = "Pater Noster";
             // 
             // polskiToolStripMenuItem2
@@ -782,25 +709,25 @@ namespace chapelet
             this.aveMariaToolStripMenuItem5,
             this.paterNosterToolStripMenuItem3});
             this.polskiToolStripMenuItem2.Name = "polskiToolStripMenuItem2";
-            this.polskiToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
+            this.polskiToolStripMenuItem2.Size = new System.Drawing.Size(150, 30);
             this.polskiToolStripMenuItem2.Text = "Polski";
             // 
             // credoToolStripMenuItem4
             // 
             this.credoToolStripMenuItem4.Name = "credoToolStripMenuItem4";
-            this.credoToolStripMenuItem4.Size = new System.Drawing.Size(162, 24);
+            this.credoToolStripMenuItem4.Size = new System.Drawing.Size(187, 30);
             this.credoToolStripMenuItem4.Text = "Credo";
             // 
             // aveMariaToolStripMenuItem5
             // 
             this.aveMariaToolStripMenuItem5.Name = "aveMariaToolStripMenuItem5";
-            this.aveMariaToolStripMenuItem5.Size = new System.Drawing.Size(162, 24);
+            this.aveMariaToolStripMenuItem5.Size = new System.Drawing.Size(187, 30);
             this.aveMariaToolStripMenuItem5.Text = "Ave Maria";
             // 
             // paterNosterToolStripMenuItem3
             // 
             this.paterNosterToolStripMenuItem3.Name = "paterNosterToolStripMenuItem3";
-            this.paterNosterToolStripMenuItem3.Size = new System.Drawing.Size(162, 24);
+            this.paterNosterToolStripMenuItem3.Size = new System.Drawing.Size(187, 30);
             this.paterNosterToolStripMenuItem3.Text = "Pater Noster";
             // 
             // button5
@@ -812,12 +739,150 @@ namespace chapelet
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // panelGoraBorderStyle
+            // 
+            this.panelGoraBorderStyle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelGoraBorderStyle.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panelGoraBorderStyle.Controls.Add(this.button9);
+            this.panelGoraBorderStyle.Controls.Add(this.BttMin);
+            this.panelGoraBorderStyle.Controls.Add(this.button7);
+            this.panelGoraBorderStyle.Controls.Add(this.BttClose);
+            this.panelGoraBorderStyle.Location = new System.Drawing.Point(773, 3);
+            this.panelGoraBorderStyle.Name = "panelGoraBorderStyle";
+            this.panelGoraBorderStyle.Size = new System.Drawing.Size(141, 38);
+            this.panelGoraBorderStyle.TabIndex = 12;
+            // 
+            // BttClose
+            // 
+            this.BttClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BttClose.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BttClose.BackgroundImage = global::chapelet.Properties.Resources.close_white;
+            this.BttClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BttClose.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BttClose.Location = new System.Drawing.Point(111, 0);
+            this.BttClose.Margin = new System.Windows.Forms.Padding(0);
+            this.BttClose.Name = "BttClose";
+            this.BttClose.Size = new System.Drawing.Size(30, 30);
+            this.BttClose.TabIndex = 0;
+            this.BttClose.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(84, 20);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(8, 8);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // BttMin
+            // 
+            this.BttMin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BttMin.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BttMin.BackgroundImage = global::chapelet.Properties.Resources.minimize_white;
+            this.BttMin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BttMin.Location = new System.Drawing.Point(84, 0);
+            this.BttMin.Name = "BttMin";
+            this.BttMin.Size = new System.Drawing.Size(30, 30);
+            this.BttMin.TabIndex = 2;
+            this.BttMin.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(57, 0);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(30, 30);
+            this.button9.TabIndex = 3;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // panelLewyWewnatrz
+            // 
+            this.panelLewyWewnatrz.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.panelLewyWewnatrz.BackgroundImage = global::chapelet.Properties.Resources.la_salette_cross_white;
+            this.panelLewyWewnatrz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelLewyWewnatrz.Location = new System.Drawing.Point(0, 303);
+            this.panelLewyWewnatrz.Name = "panelLewyWewnatrz";
+            this.panelLewyWewnatrz.Size = new System.Drawing.Size(181, 277);
+            this.panelLewyWewnatrz.TabIndex = 2;
+            // 
+            // newToolStripMenuItem
+            // 
+            this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
+            this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.newToolStripMenuItem.Text = "&New";
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
+            this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.openToolStripMenuItem.Text = "&Open";
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
+            this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.saveToolStripMenuItem.Text = "&Save";
+            // 
+            // printToolStripMenuItem
+            // 
+            this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
+            this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
+            this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.printToolStripMenuItem.Text = "&Print";
+            // 
+            // printPreviewToolStripMenuItem
+            // 
+            this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
+            this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
+            // 
+            // cutToolStripMenuItem
+            // 
+            this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
+            this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
+            this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.cutToolStripMenuItem.Text = "Cu&t";
+            // 
+            // copyToolStripMenuItem
+            // 
+            this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
+            this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.copyToolStripMenuItem.Text = "&Copy";
+            // 
+            // pasteToolStripMenuItem
+            // 
+            this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
+            this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.pasteToolStripMenuItem.Text = "&Paste";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(913, 580);
+            this.Controls.Add(this.panelGoraBorderStyle);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button4);
@@ -827,6 +892,7 @@ namespace chapelet
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panelLewyWewnatrz);
             this.Controls.Add(this.panelGora);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -844,6 +910,7 @@ namespace chapelet
             this.menuStrip3.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
+            this.panelGoraBorderStyle.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -935,6 +1002,11 @@ namespace chapelet
         public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         public System.Windows.Forms.ToolStripMenuItem orationesToolStripMenuItem2;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel panelGoraBorderStyle;
+        private System.Windows.Forms.Button button9;
+        public System.Windows.Forms.Button BttMin;
+        private System.Windows.Forms.Button button7;
+        public System.Windows.Forms.Button BttClose;
     }
 }
 
