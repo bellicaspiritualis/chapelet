@@ -73,6 +73,56 @@ namespace chapelet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cross_00_removebg {
+            get {
+                object obj = ResourceManager.GetObject("cross_00-removebg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cross_transparent {
+            get {
+                object obj = ResourceManager.GetObject("cross_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlonie {
+            get {
+                object obj = ResourceManager.GetObject("dlonie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlonie_bw_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("dlonie_bw_removebg_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap la_salette_cross {
+            get {
+                object obj = ResourceManager.GetObject("la_salette_cross", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap la_salette_cross_white {
             get {
                 object obj = ResourceManager.GetObject("la_salette_cross_white", resourceCulture);
@@ -86,6 +136,36 @@ namespace chapelet.Properties {
         internal static System.Drawing.Bitmap minimize_white {
             get {
                 object obj = ResourceManager.GetObject("minimize_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_blue {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap virgin_mary_bgremove_white__2_ {
+            get {
+                object obj = ResourceManager.GetObject("virgin_mary_bgremove_white__2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap virgin_mary_removebg_black__2_ {
+            get {
+                object obj = ResourceManager.GetObject("virgin_mary_removebg_black__2_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

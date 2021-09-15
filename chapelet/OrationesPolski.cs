@@ -8,17 +8,16 @@ using System.Windows.Forms;
 
 namespace chapelet
 {
-    class Orationes
+    class OrationesPolski
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
-        //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
 
-        public static void orationesCredoFrancais_Click(object s, EventArgs e)
+        public static void CredoPl_Click(object s, EventArgs e)
         {
             string database_connection = "Data Source=Database\\modlitewnik.db;Version=3;";
             SQLiteConnection connection = new SQLiteConnection(database_connection);
             connection.Open();
-            string query = string.Format("SELECT priere FROM francais where titre='credo' ");
+            string query = string.Format("SELECT modlitwa FROM polski where tytul='credo' ");
             SQLiteCommand command = new SQLiteCommand(query, connection);
             SQLiteDataReader sqReader = command.ExecuteReader();
             try
@@ -36,19 +35,19 @@ namespace chapelet
             }
         }
 
-        public static void aveMariaFrancais_Click(object s, EventArgs e)
+        public static void ZdrowaskaPl_Click(object s, EventArgs e)
         {
             string database_connection = "Data Source=Database\\modlitewnik.db;Version=3;";
             SQLiteConnection connection = new SQLiteConnection(database_connection);
             connection.Open();
-            string query = string.Format("SELECT priere FROM francais where id='2' ");
+            string query = string.Format("SELECT modlitwa FROM polski where tytul='zdrowaska' ");
             SQLiteCommand command = new SQLiteCommand(query, connection);
             SQLiteDataReader sqReader = command.ExecuteReader();
             try
             {
                 while (sqReader.Read())
                 {
-                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    //myForm.richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
                     myForm.richTextBox1.Text = sqReader.GetString(0);
                 }
             }
@@ -59,19 +58,19 @@ namespace chapelet
             }
         }
 
-        public static void PaterNosterFrancais_Click(object s, EventArgs e)
+        public static void OjczeNaszPl_Click(object s, EventArgs e)
         {
             string database_connection = "Data Source=Database\\modlitewnik.db;Version=3;";
             SQLiteConnection connection = new SQLiteConnection(database_connection);
             connection.Open();
-            string query = string.Format("SELECT priere FROM francais where id='3' ");
+            string query = string.Format("SELECT modlitwa FROM polski where tytul='ojczenasz' ");
             SQLiteCommand command = new SQLiteCommand(query, connection);
             SQLiteDataReader sqReader = command.ExecuteReader();
             try
             {
                 while (sqReader.Read())
                 {
-                    //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+                    //myForm.richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
                     myForm.richTextBox1.Text = sqReader.GetString(0);
                 }
             }
