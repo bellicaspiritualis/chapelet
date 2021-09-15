@@ -15,7 +15,7 @@ namespace chapelet
 
 
 
-        public static void BttClose_Click(object sender, EventArgs e)
+        public static void PanelBttClose_Click(object sender, EventArgs e)
         {
             //if (MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
@@ -24,7 +24,7 @@ namespace chapelet
 
         }
 
-        public static void BttMin_Click(object sender, EventArgs e)
+        public static void PanelBttMin_Click(object s, EventArgs e)
         {
             myForm.WindowState = FormWindowState.Minimized;
         }
