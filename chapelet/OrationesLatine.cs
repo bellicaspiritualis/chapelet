@@ -6,11 +6,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+
+using System.Data.SqlClient;
+using System.Threading;
+
 namespace chapelet
 {
+    
     class OrationesLatine
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
+        public static DBConn con;
+        public static void SalveReginaLatine_Click(object sender, EventArgs e)
+        {
+            con = new DBConn();
+            con.SqlQuery("SELECT orationes FROM latin where id='4' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
+            {
+                myForm.richTextBox1.AppendText(dr[0].ToString());
+            }
+        }
 
         public static void CredoLatine_Click(object s, EventArgs e)
         {
@@ -80,5 +99,7 @@ namespace chapelet
                 connection.Close();
             }
         }
+
+
     }
 }

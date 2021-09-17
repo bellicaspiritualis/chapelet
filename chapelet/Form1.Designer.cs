@@ -31,17 +31,27 @@ namespace chapelet
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelGora = new System.Windows.Forms.Panel();
+            this.panelBttClose = new System.Windows.Forms.Panel();
+            this.panelBttMin = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +63,6 @@ namespace chapelet
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.françaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aveMariaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.credoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -98,22 +107,14 @@ namespace chapelet
             this.credoPl = new System.Windows.Forms.ToolStripMenuItem();
             this.zdrowaskaPl = new System.Windows.Forms.ToolStripMenuItem();
             this.ojczeNaszPl = new System.Windows.Forms.ToolStripMenuItem();
-            this.wypad = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
-            this.panelBttClose = new System.Windows.Forms.Panel();
-            this.panelBttMin = new System.Windows.Forms.Panel();
-            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.latineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.credoLatine = new System.Windows.Forms.ToolStripMenuItem();
             this.aveMariaLatine = new System.Windows.Forms.ToolStripMenuItem();
             this.paterNosterLatine = new System.Windows.Forms.ToolStripMenuItem();
+            this.wypad = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.salveReginaLatine = new System.Windows.Forms.ToolStripMenuItem();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -138,6 +139,26 @@ namespace chapelet
             this.panelGora.Size = new System.Drawing.Size(914, 40);
             this.panelGora.TabIndex = 0;
             // 
+            // panelBttClose
+            // 
+            this.panelBttClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelBttClose.BackgroundImage = global::chapelet.Properties.Resources.close_white;
+            this.panelBttClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panelBttClose.Location = new System.Drawing.Point(879, 3);
+            this.panelBttClose.Name = "panelBttClose";
+            this.panelBttClose.Size = new System.Drawing.Size(30, 30);
+            this.panelBttClose.TabIndex = 8;
+            // 
+            // panelBttMin
+            // 
+            this.panelBttMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelBttMin.BackgroundImage = global::chapelet.Properties.Resources.minimize_white;
+            this.panelBttMin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panelBttMin.Location = new System.Drawing.Point(850, 3);
+            this.panelBttMin.Name = "panelBttMin";
+            this.panelBttMin.Size = new System.Drawing.Size(30, 30);
+            this.panelBttMin.TabIndex = 7;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -149,7 +170,7 @@ namespace chapelet
             this.editToolStripMenuItem,
             this.toolsToolStripMenuItem,
             this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(6, 4);
+            this.menuStrip1.Location = new System.Drawing.Point(6, 3);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(225, 29);
             this.menuStrip1.TabIndex = 3;
@@ -176,10 +197,37 @@ namespace chapelet
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(49, 25);
             this.fileToolStripMenuItem.Text = "&File";
             // 
+            // newToolStripMenuItem
+            // 
+            this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
+            this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.newToolStripMenuItem.Text = "&New";
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
+            this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.openToolStripMenuItem.Text = "&Open";
+            // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
             this.toolStripSeparator.Size = new System.Drawing.Size(181, 6);
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
+            this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.saveToolStripMenuItem.Text = "&Save";
             // 
             // saveAsToolStripMenuItem
             // 
@@ -191,6 +239,23 @@ namespace chapelet
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
+            // 
+            // printToolStripMenuItem
+            // 
+            this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
+            this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
+            this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.printToolStripMenuItem.Text = "&Print";
+            // 
+            // printPreviewToolStripMenuItem
+            // 
+            this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
+            this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
+            this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
@@ -238,6 +303,33 @@ namespace chapelet
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(169, 6);
             // 
+            // cutToolStripMenuItem
+            // 
+            this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
+            this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
+            this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
+            this.cutToolStripMenuItem.Text = "Cu&t";
+            // 
+            // copyToolStripMenuItem
+            // 
+            this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
+            this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
+            this.copyToolStripMenuItem.Text = "&Copy";
+            // 
+            // pasteToolStripMenuItem
+            // 
+            this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
+            this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
+            this.pasteToolStripMenuItem.Text = "&Paste";
+            // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -262,13 +354,13 @@ namespace chapelet
             // customizeToolStripMenuItem
             // 
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.customizeToolStripMenuItem.Text = "&Customize";
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.optionsToolStripMenuItem.Text = "&Options";
             // 
             // helpToolStripMenuItem
@@ -287,48 +379,31 @@ namespace chapelet
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(136, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
             this.aboutToolStripMenuItem.Text = "&About...";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.richTextBox1.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(187, 38);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.ShowSelectionMargin = true;
-            this.richTextBox1.Size = new System.Drawing.Size(471, 522);
-            this.richTextBox1.TabIndex = 7;
-            this.richTextBox1.Text = "";
             // 
             // françaisToolStripMenuItem
             // 
@@ -683,6 +758,35 @@ namespace chapelet
             this.ojczeNaszPl.Size = new System.Drawing.Size(204, 34);
             this.ojczeNaszPl.Text = "Pater Noster";
             // 
+            // latineToolStripMenuItem
+            // 
+            this.latineToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.credoLatine,
+            this.aveMariaLatine,
+            this.paterNosterLatine,
+            this.salveReginaLatine});
+            this.latineToolStripMenuItem.Name = "latineToolStripMenuItem";
+            this.latineToolStripMenuItem.Size = new System.Drawing.Size(180, 34);
+            this.latineToolStripMenuItem.Text = "Latine";
+            // 
+            // credoLatine
+            // 
+            this.credoLatine.Name = "credoLatine";
+            this.credoLatine.Size = new System.Drawing.Size(207, 34);
+            this.credoLatine.Text = "Credo";
+            // 
+            // aveMariaLatine
+            // 
+            this.aveMariaLatine.Name = "aveMariaLatine";
+            this.aveMariaLatine.Size = new System.Drawing.Size(207, 34);
+            this.aveMariaLatine.Text = "Ave Maria";
+            // 
+            // paterNosterLatine
+            // 
+            this.paterNosterLatine.Name = "paterNosterLatine";
+            this.paterNosterLatine.Size = new System.Drawing.Size(207, 34);
+            this.paterNosterLatine.Text = "Pater Noster";
+            // 
             // wypad
             // 
             this.wypad.Name = "wypad";
@@ -699,124 +803,29 @@ namespace chapelet
             this.panelLewyWewnatrz.Size = new System.Drawing.Size(182, 284);
             this.panelLewyWewnatrz.TabIndex = 2;
             // 
-            // panelBttClose
+            // richTextBox1
             // 
-            this.panelBttClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelBttClose.BackgroundImage = global::chapelet.Properties.Resources.close_white;
-            this.panelBttClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelBttClose.Location = new System.Drawing.Point(879, 3);
-            this.panelBttClose.Name = "panelBttClose";
-            this.panelBttClose.Size = new System.Drawing.Size(30, 30);
-            this.panelBttClose.TabIndex = 8;
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.richTextBox1.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(187, 39);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.richTextBox1.ShowSelectionMargin = true;
+            this.richTextBox1.Size = new System.Drawing.Size(696, 521);
+            this.richTextBox1.TabIndex = 7;
+            this.richTextBox1.Text = "";
             // 
-            // panelBttMin
+            // salveReginaLatine
             // 
-            this.panelBttMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelBttMin.BackgroundImage = global::chapelet.Properties.Resources.minimize_white;
-            this.panelBttMin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelBttMin.Location = new System.Drawing.Point(850, 3);
-            this.panelBttMin.Name = "panelBttMin";
-            this.panelBttMin.Size = new System.Drawing.Size(30, 30);
-            this.panelBttMin.TabIndex = 7;
-            // 
-            // newToolStripMenuItem
-            // 
-            this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
-            this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
-            this.newToolStripMenuItem.Text = "&New";
-            // 
-            // openToolStripMenuItem
-            // 
-            this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
-            this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
-            this.openToolStripMenuItem.Text = "&Open";
-            // 
-            // saveToolStripMenuItem
-            // 
-            this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
-            this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
-            this.saveToolStripMenuItem.Text = "&Save";
-            // 
-            // printToolStripMenuItem
-            // 
-            this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
-            this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
-            this.printToolStripMenuItem.Text = "&Print";
-            // 
-            // printPreviewToolStripMenuItem
-            // 
-            this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
-            this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
-            this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
-            // 
-            // cutToolStripMenuItem
-            // 
-            this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
-            this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
-            this.cutToolStripMenuItem.Text = "Cu&t";
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
-            this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
-            this.copyToolStripMenuItem.Text = "&Copy";
-            // 
-            // pasteToolStripMenuItem
-            // 
-            this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
-            this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
-            this.pasteToolStripMenuItem.Text = "&Paste";
-            // 
-            // latineToolStripMenuItem
-            // 
-            this.latineToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.credoLatine,
-            this.aveMariaLatine,
-            this.paterNosterLatine});
-            this.latineToolStripMenuItem.Name = "latineToolStripMenuItem";
-            this.latineToolStripMenuItem.Size = new System.Drawing.Size(180, 34);
-            this.latineToolStripMenuItem.Text = "Latine";
-            // 
-            // credoLatine
-            // 
-            this.credoLatine.Name = "credoLatine";
-            this.credoLatine.Size = new System.Drawing.Size(204, 34);
-            this.credoLatine.Text = "Credo";
-            // 
-            // aveMariaLatine
-            // 
-            this.aveMariaLatine.Name = "aveMariaLatine";
-            this.aveMariaLatine.Size = new System.Drawing.Size(204, 34);
-            this.aveMariaLatine.Text = "Ave Maria";
-            // 
-            // paterNosterLatine
-            // 
-            this.paterNosterLatine.Name = "paterNosterLatine";
-            this.paterNosterLatine.Size = new System.Drawing.Size(204, 34);
-            this.paterNosterLatine.Text = "Pater Noster";
+            this.salveReginaLatine.Name = "salveReginaLatine";
+            this.salveReginaLatine.Size = new System.Drawing.Size(207, 34);
+            this.salveReginaLatine.Text = "Salve Regina";
             // 
             // Form1
             // 
@@ -856,7 +865,6 @@ namespace chapelet
 
         private System.Windows.Forms.Panel panelGora;
         private System.Windows.Forms.Panel panelLewyWewnatrz;
-        public System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.ToolStripMenuItem françaisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aveMariaToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem credoToolStripMenuItem1;
@@ -897,6 +905,17 @@ namespace chapelet
         public System.Windows.Forms.ToolStripMenuItem orationesToolStripMenuItem2;
         private System.Windows.Forms.Panel panelBttMin;
         private System.Windows.Forms.Panel panelBttClose;
+        public System.Windows.Forms.ToolStripMenuItem wypad;
+        private System.Windows.Forms.MenuStrip menuStrip5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
+        private System.Windows.Forms.ToolStripMenuItem creoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem legereToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editeoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem delereToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem latineToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem credoLatine;
+        private System.Windows.Forms.ToolStripMenuItem aveMariaLatine;
+        private System.Windows.Forms.ToolStripMenuItem paterNosterLatine;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
@@ -927,17 +946,8 @@ namespace chapelet
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem wypad;
-        private System.Windows.Forms.MenuStrip menuStrip5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
-        private System.Windows.Forms.ToolStripMenuItem creoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem legereToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editeoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem delereToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem latineToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem credoLatine;
-        private System.Windows.Forms.ToolStripMenuItem aveMariaLatine;
-        private System.Windows.Forms.ToolStripMenuItem paterNosterLatine;
+        public System.Windows.Forms.RichTextBox richTextBox1;
+        public System.Windows.Forms.ToolStripMenuItem salveReginaLatine;
     }
 }
 

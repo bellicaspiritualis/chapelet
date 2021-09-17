@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace chapelet
 {
-    class Orationes
+    class OrationesFrancais
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
         //richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
