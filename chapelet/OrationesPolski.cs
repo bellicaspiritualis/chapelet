@@ -1,83 +1,56 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SQLite;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data;
 namespace chapelet
 {
     class OrationesPolski
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
+        public static DBConn con;
+        //myForm.richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
 
         public static void CredoPl_Click(object s, EventArgs e)
         {
-            string database_connection = "Data Source=Database\\modlitewnik.db;Version=3;";
-            SQLiteConnection connection = new SQLiteConnection(database_connection);
-            connection.Open();
-            string query = string.Format("SELECT modlitwa FROM polski where tytul='credo' ");
-            SQLiteCommand command = new SQLiteCommand(query, connection);
-            SQLiteDataReader sqReader = command.ExecuteReader();
-            try
+            con = new DBConn();
+            con.SqlQuery("SELECT modlitwa FROM polski where id='1' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
             {
-                while (sqReader.Read())
-                {
-                    //myForm.richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
-                    myForm.richTextBox1.Text = sqReader.GetString(0);
-                }
-            }
-            finally
-            {
-                sqReader.Close();
-                connection.Close();
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
 
         public static void ZdrowaskaPl_Click(object s, EventArgs e)
         {
-            string database_connection = "Data Source=Database\\modlitewnik.db;Version=3;";
-            SQLiteConnection connection = new SQLiteConnection(database_connection);
-            connection.Open();
-            string query = string.Format("SELECT modlitwa FROM polski where tytul='zdrowaska' ");
-            SQLiteCommand command = new SQLiteCommand(query, connection);
-            SQLiteDataReader sqReader = command.ExecuteReader();
-            try
+            con = new DBConn();
+            con.SqlQuery("SELECT modlitwa FROM polski where id='2' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
             {
-                while (sqReader.Read())
-                {
-                    //myForm.richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
-                    myForm.richTextBox1.Text = sqReader.GetString(0);
-                }
-            }
-            finally
-            {
-                sqReader.Close();
-                connection.Close();
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
 
         public static void OjczeNaszPl_Click(object s, EventArgs e)
         {
-            string database_connection = "Data Source=Database\\modlitewnik.db;Version=3;";
-            SQLiteConnection connection = new SQLiteConnection(database_connection);
-            connection.Open();
-            string query = string.Format("SELECT modlitwa FROM polski where tytul='ojczenasz' ");
-            SQLiteCommand command = new SQLiteCommand(query, connection);
-            SQLiteDataReader sqReader = command.ExecuteReader();
-            try
+            con = new DBConn();
+            con.SqlQuery("SELECT modlitwa FROM polski where id='3' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
             {
-                while (sqReader.Read())
-                {
-                    //myForm.richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
-                    myForm.richTextBox1.Text = sqReader.GetString(0);
-                }
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
-            finally
+        }
+
+        public static void DoSWJozefa_Click(object s, EventArgs e)
+        {
+            con = new DBConn();
+            con.SqlQuery("SELECT modlitwa FROM polski where id='4' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
             {
-                sqReader.Close();
-                connection.Close();
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
     }

@@ -111,10 +111,11 @@ namespace chapelet
             this.credoLatine = new System.Windows.Forms.ToolStripMenuItem();
             this.aveMariaLatine = new System.Windows.Forms.ToolStripMenuItem();
             this.paterNosterLatine = new System.Windows.Forms.ToolStripMenuItem();
+            this.salveReginaLatine = new System.Windows.Forms.ToolStripMenuItem();
             this.wypad = new System.Windows.Forms.ToolStripMenuItem();
             this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.salveReginaLatine = new System.Windows.Forms.ToolStripMenuItem();
+            this.doSwJozefa = new System.Windows.Forms.ToolStripMenuItem();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -735,7 +736,8 @@ namespace chapelet
             this.polskiToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.credoPl,
             this.zdrowaskaPl,
-            this.ojczeNaszPl});
+            this.ojczeNaszPl,
+            this.doSwJozefa});
             this.polskiToolStripMenuItem2.Name = "polskiToolStripMenuItem2";
             this.polskiToolStripMenuItem2.Size = new System.Drawing.Size(180, 34);
             this.polskiToolStripMenuItem2.Text = "Polski";
@@ -743,19 +745,19 @@ namespace chapelet
             // credoPl
             // 
             this.credoPl.Name = "credoPl";
-            this.credoPl.Size = new System.Drawing.Size(204, 34);
+            this.credoPl.Size = new System.Drawing.Size(222, 34);
             this.credoPl.Text = "Credo";
             // 
             // zdrowaskaPl
             // 
             this.zdrowaskaPl.Name = "zdrowaskaPl";
-            this.zdrowaskaPl.Size = new System.Drawing.Size(204, 34);
+            this.zdrowaskaPl.Size = new System.Drawing.Size(222, 34);
             this.zdrowaskaPl.Text = "Ave Maria";
             // 
             // ojczeNaszPl
             // 
             this.ojczeNaszPl.Name = "ojczeNaszPl";
-            this.ojczeNaszPl.Size = new System.Drawing.Size(204, 34);
+            this.ojczeNaszPl.Size = new System.Drawing.Size(222, 34);
             this.ojczeNaszPl.Text = "Pater Noster";
             // 
             // latineToolStripMenuItem
@@ -786,6 +788,12 @@ namespace chapelet
             this.paterNosterLatine.Name = "paterNosterLatine";
             this.paterNosterLatine.Size = new System.Drawing.Size(207, 34);
             this.paterNosterLatine.Text = "Pater Noster";
+            // 
+            // salveReginaLatine
+            // 
+            this.salveReginaLatine.Name = "salveReginaLatine";
+            this.salveReginaLatine.Size = new System.Drawing.Size(207, 34);
+            this.salveReginaLatine.Text = "Salve Regina";
             // 
             // wypad
             // 
@@ -821,11 +829,11 @@ namespace chapelet
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
-            // salveReginaLatine
+            // doSwJozefa
             // 
-            this.salveReginaLatine.Name = "salveReginaLatine";
-            this.salveReginaLatine.Size = new System.Drawing.Size(207, 34);
-            this.salveReginaLatine.Text = "Salve Regina";
+            this.doSwJozefa.Name = "doSwJozefa";
+            this.doSwJozefa.Size = new System.Drawing.Size(222, 34);
+            this.doSwJozefa.Text = "Do Św. Józefa";
             // 
             // Form1
             // 
@@ -948,6 +956,7 @@ namespace chapelet
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         public System.Windows.Forms.RichTextBox richTextBox1;
         public System.Windows.Forms.ToolStripMenuItem salveReginaLatine;
+        private System.Windows.Forms.ToolStripMenuItem doSwJozefa;
     }
 }
 

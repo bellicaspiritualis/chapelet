@@ -14,11 +14,12 @@ namespace chapelet
     public partial class Form1 : Form
     {
         public DBConn con;
+        
 
         public Form1()
         {
             InitializeComponent();
-
+            
             panelBttClose.Click += BorderStyle.PanelBttClose_Click;
             panelBttMin.Click += BorderStyle.PanelBttMin_Click;
 
@@ -31,6 +32,7 @@ namespace chapelet
             credoPl.Click += OrationesPolski.CredoPl_Click;
             zdrowaskaPl.Click += OrationesPolski.ZdrowaskaPl_Click;
             ojczeNaszPl.Click += OrationesPolski.OjczeNaszPl_Click;
+            doSwJozefa.Click += OrationesPolski.DoSWJozefa_Click;
 
             credoLatine.Click += OrationesLatine.CredoLatine_Click;
             aveMariaLatine.Click += OrationesLatine.AveMariaLatine_Click;
