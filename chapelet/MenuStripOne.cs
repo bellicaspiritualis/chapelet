@@ -14,7 +14,7 @@ namespace chapelet
 
         public static void NewToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.Clear();
+            myForm.richTextBox2.Clear();
         }
 
         public static void ExitToolStripMenuItem_Click(object s, EventArgs e)
@@ -30,7 +30,7 @@ namespace chapelet
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 StreamReader sr = new StreamReader(ofd.FileName);
-                myForm.richTextBox1.Text = sr.ReadToEnd();
+                myForm.richTextBox2.Text = sr.ReadToEnd();
                 sr.Close();
             }
         }
@@ -43,39 +43,39 @@ namespace chapelet
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 StreamWriter sw = new StreamWriter(sfd.FileName);
-                sw.Write(myForm.richTextBox1.Text);
+                sw.Write(myForm.richTextBox2.Text);
                 sw.Close();
             }
         }
 
         public static void UndoToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.Undo();
+            myForm.richTextBox2.Undo();
         }
 
         public static void RedoToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.Redo();
+            myForm.richTextBox2.Redo();
         }
 
         public static void CutToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.Cut();
+            myForm.richTextBox2.Cut();
         }
 
         public static void CopyToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.Copy();
+            myForm.richTextBox2.Copy();
         }
 
         public static void PasteToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.Paste();
+            myForm.richTextBox2.Paste();
         }
 
         public static void SelectAllToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox1.SelectAll();
+            myForm.richTextBox2.SelectAll();
         }
     }
 }

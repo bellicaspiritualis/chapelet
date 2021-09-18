@@ -119,6 +119,7 @@ namespace chapelet
             this.labelMail = new System.Windows.Forms.Label();
             this.priereStJosephFrancais = new System.Windows.Forms.ToolStripMenuItem();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -148,7 +149,7 @@ namespace chapelet
             this.panelBttClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panelBttClose.BackgroundImage = global::chapelet.Properties.Resources.close_white;
             this.panelBttClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelBttClose.Location = new System.Drawing.Point(885, 7);
+            this.panelBttClose.Location = new System.Drawing.Point(885, 5);
             this.panelBttClose.Name = "panelBttClose";
             this.panelBttClose.Size = new System.Drawing.Size(20, 20);
             this.panelBttClose.TabIndex = 8;
@@ -159,7 +160,7 @@ namespace chapelet
             this.panelBttMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panelBttMin.BackgroundImage = global::chapelet.Properties.Resources.minimize_white;
             this.panelBttMin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelBttMin.Location = new System.Drawing.Point(864, 7);
+            this.panelBttMin.Location = new System.Drawing.Point(864, 5);
             this.panelBttMin.Name = "panelBttMin";
             this.panelBttMin.Size = new System.Drawing.Size(20, 20);
             this.panelBttMin.TabIndex = 7;
@@ -470,9 +471,9 @@ namespace chapelet
             this.panel1.Controls.Add(this.menuStrip4);
             this.panel1.Controls.Add(this.menuStrip3);
             this.panel1.Controls.Add(this.menuStrip2);
-            this.panel1.Location = new System.Drawing.Point(-3, 33);
+            this.panel1.Location = new System.Drawing.Point(-3, 30);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(227, 174);
+            this.panel1.Size = new System.Drawing.Size(227, 180);
             this.panel1.TabIndex = 9;
             // 
             // menuStrip5
@@ -832,11 +833,12 @@ namespace chapelet
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.richTextBox1.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(227, 33);
+            this.richTextBox1.Location = new System.Drawing.Point(224, 30);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
             this.richTextBox1.ShowSelectionMargin = true;
-            this.richTextBox1.Size = new System.Drawing.Size(681, 660);
+            this.richTextBox1.Size = new System.Drawing.Size(688, 660);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
@@ -861,9 +863,27 @@ namespace chapelet
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(-3, 207);
+            this.monthCalendar1.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthCalendar1.Location = new System.Drawing.Point(-2, 210);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 12;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.richTextBox2.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.Location = new System.Drawing.Point(224, 30);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.richTextBox2.ShowSelectionMargin = true;
+            this.richTextBox2.Size = new System.Drawing.Size(693, 660);
+            this.richTextBox2.TabIndex = 13;
+            this.richTextBox2.Text = "";
             // 
             // Form1
             // 
@@ -871,6 +891,7 @@ namespace chapelet
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(913, 721);
+            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.labelMail);
             this.Controls.Add(this.panel1);
@@ -993,6 +1014,7 @@ namespace chapelet
         private System.Windows.Forms.Label labelMail;
         private System.Windows.Forms.ToolStripMenuItem priereStJosephFrancais;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        public System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 

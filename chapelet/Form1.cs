@@ -14,7 +14,6 @@ namespace chapelet
     public partial class Form1 : Form
     {
         public DBConn con;
-        internal System.Timers.Timer timer;
 
         public Form1()
         {
