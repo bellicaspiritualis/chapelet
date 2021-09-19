@@ -17,6 +17,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -28,6 +29,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -39,6 +41,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -50,6 +53,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }

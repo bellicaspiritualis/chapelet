@@ -9,9 +9,10 @@ namespace chapelet
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
         public static DBConn con;
-        //RichTextBox rbox = new RichTextBox();
+
         ////richTextBox1.Text = "\n🕀\n\n";
-        //this.Controls.Add(rbox);
+
+
 
         public static void orationesCredoFrancais_Click(object s, EventArgs e)
         {
@@ -19,7 +20,8 @@ namespace chapelet
             con.SqlQuery("SELECT priere FROM francais where id='1' ");
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
-            {                
+            {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -31,6 +33,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -42,6 +45,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -53,6 +57,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }

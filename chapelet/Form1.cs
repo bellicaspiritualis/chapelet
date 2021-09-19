@@ -15,6 +15,8 @@ namespace chapelet
     {
         public DBConn con;
 
+        //richTextBox1.Clear();
+
         public Form1()
         {
             InitializeComponent();

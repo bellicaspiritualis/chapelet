@@ -11,7 +11,7 @@ namespace chapelet
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
         public static DBConn con;
-
+        //public static Form1 myForm = richTextBox1.ReadOnly = true;
         public static void CredoLatine_Click(object s, EventArgs e)
         {
             con = new DBConn();
@@ -19,6 +19,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
@@ -30,6 +31,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString());
             }
         }
@@ -42,6 +44,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString());
             }
         }
@@ -53,6 +56,7 @@ namespace chapelet
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {
+                myForm.richTextBox1.ReadOnly = true;
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString());
             }
         }

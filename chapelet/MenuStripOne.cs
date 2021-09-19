@@ -14,7 +14,8 @@ namespace chapelet
 
         public static void NewToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.Clear();
+            myForm.richTextBox1.ReadOnly = false;
+            myForm.richTextBox1.Clear();
         }
 
         public static void ExitToolStripMenuItem_Click(object s, EventArgs e)
@@ -24,58 +25,60 @@ namespace chapelet
 
         public static void OpenToolStripMenuItem_Click(object s, EventArgs e)
         {
+            myForm.richTextBox1.ReadOnly = false;
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "All files (*.*) | *.*";
             ofd.Title = "Open a file ...";
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 StreamReader sr = new StreamReader(ofd.FileName);
-                myForm.richTextBox2.Text = sr.ReadToEnd();
+                myForm.richTextBox1.Text = sr.ReadToEnd();
                 sr.Close();
             }
         }
 
         public static void SaveToolStripMenuItem_Click(object s, EventArgs e)
         {
+            myForm.richTextBox1.ReadOnly = false;
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.Filter = "All files (*.*) | *.*";
             sfd.Title = "Save a file ...";
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 StreamWriter sw = new StreamWriter(sfd.FileName);
-                sw.Write(myForm.richTextBox2.Text);
+                sw.Write(myForm.richTextBox1.Text);
                 sw.Close();
             }
         }
 
         public static void UndoToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.Undo();
+            myForm.richTextBox1.Undo();
         }
 
         public static void RedoToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.Redo();
+            myForm.richTextBox1.Redo();
         }
 
         public static void CutToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.Cut();
+            myForm.richTextBox1.Cut();
         }
 
         public static void CopyToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.Copy();
+            myForm.richTextBox1.Copy();
         }
 
         public static void PasteToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.Paste();
+            myForm.richTextBox1.Paste();
         }
 
         public static void SelectAllToolStripMenuItem_Click(object s, EventArgs e)
         {
-            myForm.richTextBox2.SelectAll();
+            myForm.richTextBox1.SelectAll();
         }
     }
 }
