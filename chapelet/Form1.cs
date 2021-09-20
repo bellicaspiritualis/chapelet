@@ -82,6 +82,25 @@ namespace chapelet
             paterNosterLatine.Click += OrationesLatine.PaterNosterLatine_Click;
             salveReginaLatine.Click += OrationesLatine.SalveReginaLatine_Click;
             litaniaeSanctiIoseph.Click += OrationesLatine.LitaniaeSanctiIoseph_Click;
+            oratio1.Click += OrationesLatine.Oratio1_Click;
+            oratio2.Click += OrationesLatine.Oratio2_Click;
+            oratio3.Click += OrationesLatine.Oratio3_Click;
+            oratio4.Click += OrationesLatine.Oratio4_Click;
+            oratio5.Click += OrationesLatine.Oratio5_Click;
+            oratio6.Click += OrationesLatine.Oratio6_Click;
+            oratio7.Click += OrationesLatine.Oratio7_Click;
+            oratio8.Click += OrationesLatine.Oratio8_Click;
+            oratio9.Click += OrationesLatine.Oratio9_Click;
+            oratio10.Click += OrationesLatine.Oratio10_Click;
+            oratio11.Click += OrationesLatine.Oratio11_Click;
+            oratio12.Click += OrationesLatine.Oratio12_Click;
+            oratio13.Click += OrationesLatine.Oratio13_Click;
+            oratio14.Click += OrationesLatine.Oratio14_Click;
+            oratio15.Click += OrationesLatine.Oratio15_Click;
+            conclusio.Click += OrationesLatine.Conclusio_Click;
+
+            hailMary.Click += OrationesEnglish.CredoEnglish_Click;
+            ourFather.Click += OrationesEnglish.OurFather_Click;
         }
     }
 }

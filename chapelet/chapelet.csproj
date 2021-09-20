@@ -96,6 +96,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuStripOne.cs" />
+    <Compile Include="OrationesEnglish.cs" />
     <Compile Include="OrationesFrancais.cs" />
     <Compile Include="OrationesLatine.cs" />
     <Compile Include="OrationesPolski.cs" />
