@@ -41,6 +41,20 @@ namespace chapelet
             priereStJosephFrancais.Click += OrationesFrancais.PriereStJosephFrancais_Click;
             litaniesDeStJosephFR.Click += OrationesFrancais.LitaniesDeStJosephFR_Click;
             oraison1.Click += OrationesFrancais.Oraison1_Click;
+            oraison2.Click += OrationesFrancais.Oraison2_Click;
+            oraison3.Click += OrationesFrancais.Oraison3_Click;
+            oraison4.Click += OrationesFrancais.Oraison4_Click;
+            oraison5.Click += OrationesFrancais.Oraison5_Click;
+            oraison6.Click += OrationesFrancais.Oraison6_Click;
+            oraison7.Click += OrationesFrancais.Oraison7_Click;
+            oraison8.Click += OrationesFrancais.Oraison8_Click;
+            oraison9.Click += OrationesFrancais.Oraison9_Click;
+            oraison10.Click += OrationesFrancais.Oraison10_Click;
+            oraison11.Click += OrationesFrancais.Oraison11_Click;
+            oraison12.Click += OrationesFrancais.Oraison12_Click;
+            oraison13.Click += OrationesFrancais.Oraison13_Click;
+            oraison14.Click += OrationesFrancais.Oraison14_Click;
+            oraison15.Click += OrationesFrancais.Oraison15_Click;
 
             credoPl.Click += OrationesPolski.CredoPl_Click;
             zdrowaskaPl.Click += OrationesPolski.ZdrowaskaPl_Click;
