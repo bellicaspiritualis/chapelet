@@ -49,10 +49,22 @@ namespace chapelet
             }
         }
 
-        public static void SalveReginaLatine_Click(object sender, EventArgs e)
+        public static void SalveReginaLatine_Click(object s, EventArgs e)
         {
             con = new DBConn();
             con.SqlQuery("SELECT orationes FROM latin where id='4' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
+            {
+                myForm.richTextBox1.ReadOnly = true;
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString());
+            }
+        }
+
+        public static void LitaniaeSanctiIoseph_Click(object s, EventArgs e)
+        {
+            con = new DBConn();
+            con.SqlQuery("SELECT orationes FROM latin where id='5' ");
             myForm.richTextBox1.Clear();
             foreach (DataRow dr in con.QueryEx().Rows)
             {

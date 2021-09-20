@@ -12,6 +12,7 @@ namespace chapelet
     {
         public static Form1 myForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();
 
+
         public static void NewToolStripMenuItem_Click(object s, EventArgs e)
         {
             myForm.richTextBox1.ReadOnly = false;
