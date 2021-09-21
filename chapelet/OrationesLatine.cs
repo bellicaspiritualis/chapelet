@@ -49,7 +49,7 @@ namespace chapelet
             }
         }
 
-        public static void SalveReginaLatine_Click(object s, EventArgs e)
+        public static void NovenaStIosephLatine_Click(object s, EventArgs e)
         {
             con = new DBConn();
             con.SqlQuery("SELECT orationes FROM latin where id='4' ");

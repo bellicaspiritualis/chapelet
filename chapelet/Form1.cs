@@ -80,7 +80,7 @@ namespace chapelet
             credoLatine.Click += OrationesLatine.CredoLatine_Click;
             aveMariaLatine.Click += OrationesLatine.AveMariaLatine_Click;
             paterNosterLatine.Click += OrationesLatine.PaterNosterLatine_Click;
-            salveReginaLatine.Click += OrationesLatine.SalveReginaLatine_Click;
+            novenaStIosephLatine.Click += OrationesLatine.NovenaStIosephLatine_Click;
             litaniaeSanctiIoseph.Click += OrationesLatine.LitaniaeSanctiIoseph_Click;
             oratio1.Click += OrationesLatine.Oratio1_Click;
             oratio2.Click += OrationesLatine.Oratio2_Click;
@@ -99,8 +99,27 @@ namespace chapelet
             oratio15.Click += OrationesLatine.Oratio15_Click;
             conclusio.Click += OrationesLatine.Conclusio_Click;
 
-            hailMary.Click += OrationesEnglish.CredoEnglish_Click;
+            credoEn.Click += OrationesEnglish.CredoEnglish_Click;
+            hailMary.Click += OrationesEnglish.HailMary_Click;
             ourFather.Click += OrationesEnglish.OurFather_Click;
+            prayerToStJoseph.Click += OrationesEnglish.PrayerToStJoseph_Click;
+            litanyOfStJoseph.Click += OrationesEnglish.LitanyOfStJoseph_Click;
+            firstPrayer.Click += OrationesEnglish.FirstPrayer_Click;
+            secondPrayer.Click += OrationesEnglish.SecondPrayer_Click;
+            thirdPrayer.Click += OrationesEnglish.ThirdPrayer_Click;
+            fourthPrayer.Click += OrationesEnglish.FourthPrayer_Click;
+            fifthPrayer.Click += OrationesEnglish.FifthPrayer_Click;
+            sixthPrayer.Click += OrationesEnglish.SixthPrayer_Click;
+            seventhPrayer.Click += OrationesEnglish.SeventhPrayer_Click;
+            eighthPrayer.Click += OrationesEnglish.EighthPrayer_Click;
+            ninthPrayer.Click += OrationesEnglish.NinthPrayer_Click;
+            tenthPrayer.Click += OrationesEnglish.TenthPrayer_Click;
+            eleventhPrayer.Click += OrationesEnglish.EleventhPrayer_Click;
+            twelfthPrayer.Click += OrationesEnglish.TwelfthPrayer_Click;
+            thirteenthPrayer.Click += OrationesEnglish.ThirteenthPrayer_Click;
+            fourteenthPrayer.Click += OrationesEnglish.FourteenthPrayer_Click;
+            fifteenthPrayer.Click += OrationesEnglish.FifteenthPrayer_Click;
+            conclusion.Click += OrationesEnglish.Conclusion_Click;
         }
     }
 }
