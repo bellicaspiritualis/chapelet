@@ -71,135 +71,75 @@ namespace chapelet
             this.credoToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.orationesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.menuStrip5 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
-            this.creoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.legereToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editeoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.delereToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip4 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.theJoyfulMysteriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.theSorrowfulMysteriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.theGloriousMysteriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.theMysteriesOfLightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem15 = new System.Windows.Forms.ToolStripMenuItem();
+            this.latineToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip3 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tajemniceRadosneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zwiastowanieNMPŁk12638ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.narodzenieJezusaJ2114ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tajemniceBolesneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tajemniceChwalebneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tajemniceŚwiatłaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.orationesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.orationesCredoFrancais = new System.Windows.Forms.ToolStripMenuItem();
-            this.aveMariaFrancais = new System.Windows.Forms.ToolStripMenuItem();
-            this.paterNosterFrancais = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereStJosephFrancais = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDeStJosephFR = new System.Windows.Forms.ToolStripMenuItem();
-            this.les15OraisonsDeSainteBrigitteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison14 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oraison15 = new System.Windows.Forms.ToolStripMenuItem();
-            this.polskiToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.credoPl = new System.Windows.Forms.ToolStripMenuItem();
-            this.zdrowaskaPl = new System.Windows.Forms.ToolStripMenuItem();
-            this.ojczeNaszPl = new System.Windows.Forms.ToolStripMenuItem();
-            this.doSwJozefa = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniaDoŚwJózefaPL = new System.Windows.Forms.ToolStripMenuItem();
-            this.śwBrygidaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa14 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modlitwa15 = new System.Windows.Forms.ToolStripMenuItem();
-            this.latineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.credoLatine = new System.Windows.Forms.ToolStripMenuItem();
-            this.aveMariaLatine = new System.Windows.Forms.ToolStripMenuItem();
-            this.paterNosterLatine = new System.Windows.Forms.ToolStripMenuItem();
-            this.novenaStIosephLatine = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniaeSanctiIoseph = new System.Windows.Forms.ToolStripMenuItem();
-            this.orationesSancteBrigitteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio14 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oratio15 = new System.Windows.Forms.ToolStripMenuItem();
-            this.conclusio = new System.Windows.Forms.ToolStripMenuItem();
+            this.introductionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prinicipalesPrièresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.credoFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.notrePereFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.jeVousSalueMarieFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereASaintJosepFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.pourLesPetitsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pourLesPlusGrandsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.leChapeletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pourBienSeConfesserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laCheminDeCroixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.les15OraisonsDeSainteBrigitteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonPremiere = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonSeconde = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonTroisieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonQuatrieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonCinquieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonSixieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonSeptieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonHuitieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonNeuvieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonDixieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonOnzieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonoDouzieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonTreizieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonQuatorzieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.oraisonQuinzieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.prièresEnLatinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.antiennesÀLaViergeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chantsEnFrançaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wypad = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.labelMail = new System.Windows.Forms.Label();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.credoEn = new System.Windows.Forms.ToolStripMenuItem();
-            this.hailMary = new System.Windows.Forms.ToolStripMenuItem();
-            this.ourFather = new System.Windows.Forms.ToolStripMenuItem();
-            this.prayerToStJoseph = new System.Windows.Forms.ToolStripMenuItem();
-            this.litanyOfStJoseph = new System.Windows.Forms.ToolStripMenuItem();
-            this.prayersOfStBridgetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.firstPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.secondPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.thirdPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.fourthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.fifthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.sixthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.seventhPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.eighthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.ninthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.tenthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.eleventhPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.twelfthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.thirteenthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.fourteenthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.fifteenthPrayer = new System.Windows.Forms.ToolStripMenuItem();
-            this.conclusion = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
+            this.litaniesDeSaintJosephFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.gloireAuPere = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeFoi = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDesperance = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeCharite = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeContrition = new System.Windows.Forms.ToolStripMenuItem();
+            this.jeConfesseADieu = new System.Windows.Forms.ToolStripMenuItem();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.menuStrip5.SuspendLayout();
             this.menuStrip4.SuspendLayout();
-            this.menuStrip3.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -213,7 +153,7 @@ namespace chapelet
             this.panelGora.Controls.Add(this.panelBttMin);
             this.panelGora.Controls.Add(this.menuStrip1);
             this.panelGora.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelGora.Location = new System.Drawing.Point(3, 0);
+            this.panelGora.Location = new System.Drawing.Point(0, 0);
             this.panelGora.Name = "panelGora";
             this.panelGora.Size = new System.Drawing.Size(914, 31);
             this.panelGora.TabIndex = 0;
@@ -251,7 +191,7 @@ namespace chapelet
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(6, 3);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(190, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(190, 26);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -269,11 +209,11 @@ namespace chapelet
             this.printPreviewToolStripMenuItem,
             this.toolStripSeparator2,
             this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Book Antiqua", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Desktop;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(42, 22);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // newToolStripMenuItem
@@ -282,7 +222,7 @@ namespace chapelet
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.newToolStripMenuItem.Text = "&New";
             // 
             // openToolStripMenuItem
@@ -291,13 +231,13 @@ namespace chapelet
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.openToolStripMenuItem.Text = "&Open";
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(159, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(156, 6);
             // 
             // saveToolStripMenuItem
             // 
@@ -305,19 +245,19 @@ namespace chapelet
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.saveAsToolStripMenuItem.Text = "Save &As";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(159, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(156, 6);
             // 
             // printToolStripMenuItem
             // 
@@ -325,7 +265,7 @@ namespace chapelet
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -333,18 +273,18 @@ namespace chapelet
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(159, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(156, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // editToolStripMenuItem
@@ -358,29 +298,29 @@ namespace chapelet
             this.pasteToolStripMenuItem,
             this.toolStripSeparator4,
             this.selectAllToolStripMenuItem});
-            this.editToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editToolStripMenuItem.Font = new System.Drawing.Font("Book Antiqua", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(42, 22);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // undoToolStripMenuItem
             // 
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.undoToolStripMenuItem.Text = "&Undo";
             // 
             // redoToolStripMenuItem
             // 
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
             this.redoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.redoToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.redoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.redoToolStripMenuItem.Text = "&Redo";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(147, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
             // 
             // cutToolStripMenuItem
             // 
@@ -388,7 +328,7 @@ namespace chapelet
             this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cutToolStripMenuItem.Text = "Cu&t";
             // 
             // copyToolStripMenuItem
@@ -397,7 +337,7 @@ namespace chapelet
             this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.copyToolStripMenuItem.Text = "&Copy";
             // 
             // pasteToolStripMenuItem
@@ -406,18 +346,18 @@ namespace chapelet
             this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.pasteToolStripMenuItem.Text = "&Paste";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(147, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(149, 6);
             // 
             // selectAllToolStripMenuItem
             // 
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
-            this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.selectAllToolStripMenuItem.Text = "Select &All";
             // 
             // toolsToolStripMenuItem
@@ -425,9 +365,9 @@ namespace chapelet
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.customizeToolStripMenuItem,
             this.optionsToolStripMenuItem});
-            this.toolsToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolsToolStripMenuItem.Font = new System.Drawing.Font("Book Antiqua", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(51, 22);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
             // customizeToolStripMenuItem
@@ -450,38 +390,38 @@ namespace chapelet
             this.searchToolStripMenuItem,
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
-            this.helpToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpToolStripMenuItem.Font = new System.Drawing.Font("Book Antiqua", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(47, 22);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(123, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(122, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             // 
             // françaisToolStripMenuItem
@@ -539,72 +479,21 @@ namespace chapelet
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.menuStrip5);
             this.panel1.Controls.Add(this.menuStrip4);
-            this.panel1.Controls.Add(this.menuStrip3);
             this.panel1.Controls.Add(this.menuStrip2);
-            this.panel1.Location = new System.Drawing.Point(-3, 30);
+            this.panel1.Location = new System.Drawing.Point(0, 30);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(228, 180);
             this.panel1.TabIndex = 9;
-            // 
-            // menuStrip5
-            // 
-            this.menuStrip5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.menuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem20});
-            this.menuStrip5.Location = new System.Drawing.Point(0, 90);
-            this.menuStrip5.Name = "menuStrip5";
-            this.menuStrip5.Size = new System.Drawing.Size(226, 30);
-            this.menuStrip5.TabIndex = 3;
-            this.menuStrip5.Text = "menuStrip5";
-            // 
-            // toolStripMenuItem20
-            // 
-            this.toolStripMenuItem20.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.toolStripMenuItem20.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.creoToolStripMenuItem,
-            this.legereToolStripMenuItem,
-            this.editeoToolStripMenuItem,
-            this.delereToolStripMenuItem});
-            this.toolStripMenuItem20.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem20.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(124, 26);
-            this.toolStripMenuItem20.Text = " Voluntates";
-            // 
-            // creoToolStripMenuItem
-            // 
-            this.creoToolStripMenuItem.Name = "creoToolStripMenuItem";
-            this.creoToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
-            this.creoToolStripMenuItem.Text = "Creo";
-            // 
-            // legereToolStripMenuItem
-            // 
-            this.legereToolStripMenuItem.Name = "legereToolStripMenuItem";
-            this.legereToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
-            this.legereToolStripMenuItem.Text = "Legere";
-            // 
-            // editeoToolStripMenuItem
-            // 
-            this.editeoToolStripMenuItem.Name = "editeoToolStripMenuItem";
-            this.editeoToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
-            this.editeoToolStripMenuItem.Text = "Corrigo";
-            // 
-            // delereToolStripMenuItem
-            // 
-            this.delereToolStripMenuItem.Name = "delereToolStripMenuItem";
-            this.delereToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
-            this.delereToolStripMenuItem.Text = "Removeo";
             // 
             // menuStrip4
             // 
             this.menuStrip4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem11});
-            this.menuStrip4.Location = new System.Drawing.Point(0, 60);
+            this.menuStrip4.Location = new System.Drawing.Point(0, 31);
             this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.Size = new System.Drawing.Size(226, 30);
+            this.menuStrip4.Size = new System.Drawing.Size(226, 31);
             this.menuStrip4.TabIndex = 2;
             this.menuStrip4.Text = "menuStrip4";
             // 
@@ -612,147 +501,133 @@ namespace chapelet
             // 
             this.toolStripMenuItem11.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.toolStripMenuItem11.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.englishToolStripMenuItem1,
             this.toolStripMenuItem12,
+            this.latineToolStripMenuItem1,
             this.toolStripMenuItem16});
-            this.toolStripMenuItem11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem11.Font = new System.Drawing.Font("Book Antiqua", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem11.ForeColor = System.Drawing.SystemColors.Desktop;
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(114, 26);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(112, 27);
             this.toolStripMenuItem11.Text = " Rosarium";
+            // 
+            // englishToolStripMenuItem1
+            // 
+            this.englishToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.theJoyfulMysteriesToolStripMenuItem,
+            this.theSorrowfulMysteriesToolStripMenuItem,
+            this.theGloriousMysteriesToolStripMenuItem,
+            this.theMysteriesOfLightToolStripMenuItem});
+            this.englishToolStripMenuItem1.Name = "englishToolStripMenuItem1";
+            this.englishToolStripMenuItem1.Size = new System.Drawing.Size(152, 28);
+            this.englishToolStripMenuItem1.Text = "English";
+            // 
+            // theJoyfulMysteriesToolStripMenuItem
+            // 
+            this.theJoyfulMysteriesToolStripMenuItem.Name = "theJoyfulMysteriesToolStripMenuItem";
+            this.theJoyfulMysteriesToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
+            this.theJoyfulMysteriesToolStripMenuItem.Text = "The Joyful Mysteries";
+            // 
+            // theSorrowfulMysteriesToolStripMenuItem
+            // 
+            this.theSorrowfulMysteriesToolStripMenuItem.Name = "theSorrowfulMysteriesToolStripMenuItem";
+            this.theSorrowfulMysteriesToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
+            this.theSorrowfulMysteriesToolStripMenuItem.Text = "The Sorrowful Mysteries";
+            // 
+            // theGloriousMysteriesToolStripMenuItem
+            // 
+            this.theGloriousMysteriesToolStripMenuItem.Name = "theGloriousMysteriesToolStripMenuItem";
+            this.theGloriousMysteriesToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
+            this.theGloriousMysteriesToolStripMenuItem.Text = "The Glorious Mysteries";
+            // 
+            // theMysteriesOfLightToolStripMenuItem
+            // 
+            this.theMysteriesOfLightToolStripMenuItem.Name = "theMysteriesOfLightToolStripMenuItem";
+            this.theMysteriesOfLightToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
+            this.theMysteriesOfLightToolStripMenuItem.Text = "The Luminous Mysteries";
             // 
             // toolStripMenuItem12
             // 
-            this.toolStripMenuItem12.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem13,
-            this.toolStripMenuItem14,
-            this.toolStripMenuItem15});
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(158, 26);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(152, 28);
             this.toolStripMenuItem12.Text = "Français";
             // 
-            // toolStripMenuItem13
+            // latineToolStripMenuItem1
             // 
-            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(196, 26);
-            this.toolStripMenuItem13.Text = "Credo";
-            // 
-            // toolStripMenuItem14
-            // 
-            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(196, 26);
-            this.toolStripMenuItem14.Text = "Ave Maria";
-            // 
-            // toolStripMenuItem15
-            // 
-            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(196, 26);
-            this.toolStripMenuItem15.Text = "Pater Noster";
+            this.latineToolStripMenuItem1.Name = "latineToolStripMenuItem1";
+            this.latineToolStripMenuItem1.Size = new System.Drawing.Size(152, 28);
+            this.latineToolStripMenuItem1.Text = "Latine";
             // 
             // toolStripMenuItem16
             // 
             this.toolStripMenuItem16.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem17,
-            this.toolStripMenuItem18,
-            this.toolStripMenuItem19});
+            this.tajemniceRadosneToolStripMenuItem,
+            this.tajemniceBolesneToolStripMenuItem,
+            this.tajemniceChwalebneToolStripMenuItem,
+            this.tajemniceŚwiatłaToolStripMenuItem});
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(158, 26);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(152, 28);
             this.toolStripMenuItem16.Text = "Polski";
             // 
-            // toolStripMenuItem17
+            // tajemniceRadosneToolStripMenuItem
             // 
-            this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(196, 26);
-            this.toolStripMenuItem17.Text = "Credo";
+            this.tajemniceRadosneToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.zwiastowanieNMPŁk12638ToolStripMenuItem,
+            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem,
+            this.narodzenieJezusaJ2114ToolStripMenuItem,
+            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem,
+            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem});
+            this.tajemniceRadosneToolStripMenuItem.Name = "tajemniceRadosneToolStripMenuItem";
+            this.tajemniceRadosneToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
+            this.tajemniceRadosneToolStripMenuItem.Text = "Tajemnice Radosne";
             // 
-            // toolStripMenuItem18
+            // zwiastowanieNMPŁk12638ToolStripMenuItem
             // 
-            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(196, 26);
-            this.toolStripMenuItem18.Text = "Ave Maria";
+            this.zwiastowanieNMPŁk12638ToolStripMenuItem.Name = "zwiastowanieNMPŁk12638ToolStripMenuItem";
+            this.zwiastowanieNMPŁk12638ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
+            this.zwiastowanieNMPŁk12638ToolStripMenuItem.Text = "Zwiastowanie NMP (Łk 1, 26-38)";
             // 
-            // toolStripMenuItem19
+            // nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem
             // 
-            this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(196, 26);
-            this.toolStripMenuItem19.Text = "Pater Noster";
+            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem.Name = "nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem";
+            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
+            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem.Text = "Nawiedzenie św. Elżbiety (Łk 1, 39-45)";
             // 
-            // menuStrip3
+            // narodzenieJezusaJ2114ToolStripMenuItem
             // 
-            this.menuStrip3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2});
-            this.menuStrip3.Location = new System.Drawing.Point(0, 30);
-            this.menuStrip3.Name = "menuStrip3";
-            this.menuStrip3.Size = new System.Drawing.Size(226, 30);
-            this.menuStrip3.TabIndex = 1;
-            this.menuStrip3.Text = "menuStrip3";
+            this.narodzenieJezusaJ2114ToolStripMenuItem.Name = "narodzenieJezusaJ2114ToolStripMenuItem";
+            this.narodzenieJezusaJ2114ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
+            this.narodzenieJezusaJ2114ToolStripMenuItem.Text = "Narodzenie Jezusa (J 2, 1-14)";
             // 
-            // toolStripMenuItem2
+            // ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem
             // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem7});
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(110, 26);
-            this.toolStripMenuItem2.Text = " Psaumes";
+            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem.Name = "ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem";
+            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
+            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem.Text = "Ofiarowanie Jezusa w świątyni (Łk 2, 22-40)";
             // 
-            // toolStripMenuItem3
+            // znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem
             // 
-            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem5,
-            this.toolStripMenuItem6});
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(158, 26);
-            this.toolStripMenuItem3.Text = "Français";
+            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem.Name = "znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem";
+            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
+            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem.Text = "Znalezienie Jezusa w świątyni (Łk 2, 41-52)";
             // 
-            // toolStripMenuItem4
+            // tajemniceBolesneToolStripMenuItem
             // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(91, 26);
-            this.toolStripMenuItem4.Text = "?";
+            this.tajemniceBolesneToolStripMenuItem.Name = "tajemniceBolesneToolStripMenuItem";
+            this.tajemniceBolesneToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
+            this.tajemniceBolesneToolStripMenuItem.Text = "Tajemnice Bolesne";
             // 
-            // toolStripMenuItem5
+            // tajemniceChwalebneToolStripMenuItem
             // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(91, 26);
-            this.toolStripMenuItem5.Text = "?";
+            this.tajemniceChwalebneToolStripMenuItem.Name = "tajemniceChwalebneToolStripMenuItem";
+            this.tajemniceChwalebneToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
+            this.tajemniceChwalebneToolStripMenuItem.Text = "Tajemnice Chwalebne";
             // 
-            // toolStripMenuItem6
+            // tajemniceŚwiatłaToolStripMenuItem
             // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(91, 26);
-            this.toolStripMenuItem6.Text = "?";
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem8,
-            this.toolStripMenuItem9,
-            this.toolStripMenuItem10});
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(158, 26);
-            this.toolStripMenuItem7.Text = "Polski";
-            // 
-            // toolStripMenuItem8
-            // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(91, 26);
-            this.toolStripMenuItem8.Text = "?";
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(91, 26);
-            this.toolStripMenuItem9.Text = "?";
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(91, 26);
-            this.toolStripMenuItem10.Text = "?";
+            this.tajemniceŚwiatłaToolStripMenuItem.Name = "tajemniceŚwiatłaToolStripMenuItem";
+            this.tajemniceŚwiatłaToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
+            this.tajemniceŚwiatłaToolStripMenuItem.Text = "Tajemnice Światła";
             // 
             // menuStrip2
             // 
@@ -761,7 +636,7 @@ namespace chapelet
             this.toolStripMenuItem1});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(226, 30);
+            this.menuStrip2.Size = new System.Drawing.Size(226, 31);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -770,506 +645,252 @@ namespace chapelet
             this.toolStripMenuItem1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.toolStripMenuItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.orationesToolStripMenuItem2,
-            this.polskiToolStripMenuItem2,
-            this.latineToolStripMenuItem,
-            this.englishToolStripMenuItem});
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.introductionToolStripMenuItem,
+            this.prinicipalesPrièresToolStripMenuItem,
+            this.pourLesPetitsToolStripMenuItem,
+            this.pourLesPlusGrandsToolStripMenuItem,
+            this.litaniesToolStripMenuItem,
+            this.leChapeletToolStripMenuItem,
+            this.pourBienSeConfesserToolStripMenuItem,
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem,
+            this.laCheminDeCroixToolStripMenuItem,
+            this.les15OraisonsDeSainteBrigitteToolStripMenuItem1,
+            this.prièresEnLatinToolStripMenuItem,
+            this.antiennesÀLaViergeToolStripMenuItem,
+            this.chantsEnFrançaisToolStripMenuItem});
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Book Antiqua", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.toolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(116, 26);
-            this.toolStripMenuItem1.Text = " Orationes";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(212, 27);
+            this.toolStripMenuItem1.Text = " Mon Livre de Prières";
             this.toolStripMenuItem1.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
             // 
-            // orationesToolStripMenuItem2
-            // 
-            this.orationesToolStripMenuItem2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.orationesToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.orationesCredoFrancais,
-            this.aveMariaFrancais,
-            this.paterNosterFrancais,
-            this.priereStJosephFrancais,
-            this.litaniesDeStJosephFR,
-            this.les15OraisonsDeSainteBrigitteToolStripMenuItem});
-            this.orationesToolStripMenuItem2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orationesToolStripMenuItem2.Name = "orationesToolStripMenuItem2";
-            this.orationesToolStripMenuItem2.Size = new System.Drawing.Size(180, 26);
-            this.orationesToolStripMenuItem2.Text = "Français";
+            // introductionToolStripMenuItem
             // 
-            // orationesCredoFrancais
+            this.introductionToolStripMenuItem.Name = "introductionToolStripMenuItem";
+            this.introductionToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.introductionToolStripMenuItem.Text = "Introduction";
             // 
-            this.orationesCredoFrancais.Name = "orationesCredoFrancais";
-            this.orationesCredoFrancais.Size = new System.Drawing.Size(386, 26);
-            this.orationesCredoFrancais.Text = "Credo";
+            // prinicipalesPrièresToolStripMenuItem
             // 
-            // aveMariaFrancais
+            this.prinicipalesPrièresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.credoFR,
+            this.notrePereFR,
+            this.jeVousSalueMarieFR,
+            this.priereASaintJosepFR,
+            this.gloireAuPere,
+            this.acteDeFoi,
+            this.acteDesperance,
+            this.acteDeCharite,
+            this.acteDeContrition,
+            this.jeConfesseADieu});
+            this.prinicipalesPrièresToolStripMenuItem.Name = "prinicipalesPrièresToolStripMenuItem";
+            this.prinicipalesPrièresToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.prinicipalesPrièresToolStripMenuItem.Text = "Prinicipales prières";
             // 
-            this.aveMariaFrancais.Name = "aveMariaFrancais";
-            this.aveMariaFrancais.Size = new System.Drawing.Size(386, 26);
-            this.aveMariaFrancais.Text = "Je Vous Salue Marie";
+            // credoFR
             // 
-            // paterNosterFrancais
+            this.credoFR.Name = "credoFR";
+            this.credoFR.Size = new System.Drawing.Size(260, 28);
+            this.credoFR.Text = "Je Crois en Dieu";
             // 
-            this.paterNosterFrancais.Name = "paterNosterFrancais";
-            this.paterNosterFrancais.Size = new System.Drawing.Size(386, 26);
-            this.paterNosterFrancais.Text = "Notre Père";
+            // notrePereFR
             // 
-            // priereStJosephFrancais
+            this.notrePereFR.Name = "notrePereFR";
+            this.notrePereFR.Size = new System.Drawing.Size(260, 28);
+            this.notrePereFR.Text = "Notre Père";
             // 
-            this.priereStJosephFrancais.Name = "priereStJosephFrancais";
-            this.priereStJosephFrancais.Size = new System.Drawing.Size(386, 26);
-            this.priereStJosephFrancais.Text = "Prière à saint Joseph";
+            // jeVousSalueMarieFR
             // 
-            // litaniesDeStJosephFR
+            this.jeVousSalueMarieFR.Name = "jeVousSalueMarieFR";
+            this.jeVousSalueMarieFR.Size = new System.Drawing.Size(260, 28);
+            this.jeVousSalueMarieFR.Text = "Je Vous Salue Marie";
             // 
-            this.litaniesDeStJosephFR.Name = "litaniesDeStJosephFR";
-            this.litaniesDeStJosephFR.Size = new System.Drawing.Size(386, 26);
-            this.litaniesDeStJosephFR.Text = "Litanies de Saint Joseph";
+            // priereASaintJosepFR
             // 
-            // les15OraisonsDeSainteBrigitteToolStripMenuItem
+            this.priereASaintJosepFR.Name = "priereASaintJosepFR";
+            this.priereASaintJosepFR.Size = new System.Drawing.Size(260, 28);
+            this.priereASaintJosepFR.Text = "Prière à saint Joseph";
             // 
-            this.les15OraisonsDeSainteBrigitteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.oraison1,
-            this.oraison2,
-            this.oraison3,
-            this.oraison4,
-            this.oraison5,
-            this.oraison6,
-            this.oraison7,
-            this.oraison8,
-            this.oraison9,
-            this.oraison10,
-            this.oraison11,
-            this.oraison12,
-            this.oraison13,
-            this.oraison14,
-            this.oraison15});
-            this.les15OraisonsDeSainteBrigitteToolStripMenuItem.Name = "les15OraisonsDeSainteBrigitteToolStripMenuItem";
-            this.les15OraisonsDeSainteBrigitteToolStripMenuItem.Size = new System.Drawing.Size(386, 26);
-            this.les15OraisonsDeSainteBrigitteToolStripMenuItem.Text = "Les 15 oraisons de Sainte Brigitte";
+            // pourLesPetitsToolStripMenuItem
             // 
-            // oraison1
+            this.pourLesPetitsToolStripMenuItem.Name = "pourLesPetitsToolStripMenuItem";
+            this.pourLesPetitsToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.pourLesPetitsToolStripMenuItem.Text = "Pour les petits";
             // 
-            this.oraison1.Name = "oraison1";
-            this.oraison1.Size = new System.Drawing.Size(208, 26);
-            this.oraison1.Text = "1ère Oraison";
+            // pourLesPlusGrandsToolStripMenuItem
             // 
-            // oraison2
+            this.pourLesPlusGrandsToolStripMenuItem.Name = "pourLesPlusGrandsToolStripMenuItem";
+            this.pourLesPlusGrandsToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.pourLesPlusGrandsToolStripMenuItem.Text = "Pour les plus grands";
             // 
-            this.oraison2.Name = "oraison2";
-            this.oraison2.Size = new System.Drawing.Size(208, 26);
-            this.oraison2.Text = "2ère Oraison";
+            // litaniesToolStripMenuItem
             // 
-            // oraison3
+            this.litaniesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.litaniesDeSaintJosephFR});
+            this.litaniesToolStripMenuItem.Name = "litaniesToolStripMenuItem";
+            this.litaniesToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.litaniesToolStripMenuItem.Text = "Litanies";
             // 
-            this.oraison3.Name = "oraison3";
-            this.oraison3.Size = new System.Drawing.Size(208, 26);
-            this.oraison3.Text = "3ère Oraison";
+            // leChapeletToolStripMenuItem
             // 
-            // oraison4
+            this.leChapeletToolStripMenuItem.Name = "leChapeletToolStripMenuItem";
+            this.leChapeletToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.leChapeletToolStripMenuItem.Text = "Le Chapelet";
             // 
-            this.oraison4.Name = "oraison4";
-            this.oraison4.Size = new System.Drawing.Size(208, 26);
-            this.oraison4.Text = "4ère Oraison";
+            // pourBienSeConfesserToolStripMenuItem
             // 
-            // oraison5
+            this.pourBienSeConfesserToolStripMenuItem.Name = "pourBienSeConfesserToolStripMenuItem";
+            this.pourBienSeConfesserToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.pourBienSeConfesserToolStripMenuItem.Text = "Pour bien se confesser";
             // 
-            this.oraison5.Name = "oraison5";
-            this.oraison5.Size = new System.Drawing.Size(208, 26);
-            this.oraison5.Text = "5ère Oraison";
+            // laCommunionEtLadorationEucharistiqueToolStripMenuItem
             // 
-            // oraison6
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Name = "laCommunionEtLadorationEucharistiqueToolStripMenuItem";
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Text = "La communion et l\'adoration Eucharistique";
             // 
-            this.oraison6.Name = "oraison6";
-            this.oraison6.Size = new System.Drawing.Size(208, 26);
-            this.oraison6.Text = "6ère Oraison";
+            // laCheminDeCroixToolStripMenuItem
             // 
-            // oraison7
+            this.laCheminDeCroixToolStripMenuItem.Name = "laCheminDeCroixToolStripMenuItem";
+            this.laCheminDeCroixToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.laCheminDeCroixToolStripMenuItem.Text = "La chemin de Croix";
             // 
-            this.oraison7.Name = "oraison7";
-            this.oraison7.Size = new System.Drawing.Size(208, 26);
-            this.oraison7.Text = "7ère Oraison";
+            // les15OraisonsDeSainteBrigitteToolStripMenuItem1
             // 
-            // oraison8
+            this.les15OraisonsDeSainteBrigitteToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.oraisonPremiere,
+            this.oraisonSeconde,
+            this.oraisonTroisieme,
+            this.oraisonQuatrieme,
+            this.oraisonCinquieme,
+            this.oraisonSixieme,
+            this.oraisonSeptieme,
+            this.oraisonHuitieme,
+            this.oraisonNeuvieme,
+            this.oraisonDixieme,
+            this.oraisonOnzieme,
+            this.oraisonoDouzieme,
+            this.oraisonTreizieme,
+            this.oraisonQuatorzieme,
+            this.oraisonQuinzieme});
+            this.les15OraisonsDeSainteBrigitteToolStripMenuItem1.Name = "les15OraisonsDeSainteBrigitteToolStripMenuItem1";
+            this.les15OraisonsDeSainteBrigitteToolStripMenuItem1.Size = new System.Drawing.Size(460, 28);
+            this.les15OraisonsDeSainteBrigitteToolStripMenuItem1.Text = "Les quinze oraisons de Sainte Brigitte";
             // 
-            this.oraison8.Name = "oraison8";
-            this.oraison8.Size = new System.Drawing.Size(208, 26);
-            this.oraison8.Text = "8ère Oraison";
+            // oraisonPremiere
             // 
-            // oraison9
+            this.oraisonPremiere.Name = "oraisonPremiere";
+            this.oraisonPremiere.Size = new System.Drawing.Size(265, 28);
+            this.oraisonPremiere.Text = "Première oraison";
             // 
-            this.oraison9.Name = "oraison9";
-            this.oraison9.Size = new System.Drawing.Size(208, 26);
-            this.oraison9.Text = "9ère Oraison";
+            // oraisonSeconde
             // 
-            // oraison10
+            this.oraisonSeconde.Name = "oraisonSeconde";
+            this.oraisonSeconde.Size = new System.Drawing.Size(265, 28);
+            this.oraisonSeconde.Text = "Seconde oraison";
             // 
-            this.oraison10.Name = "oraison10";
-            this.oraison10.Size = new System.Drawing.Size(208, 26);
-            this.oraison10.Text = "10ère Oraison";
+            // oraisonTroisieme
             // 
-            // oraison11
+            this.oraisonTroisieme.Name = "oraisonTroisieme";
+            this.oraisonTroisieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonTroisieme.Text = "Troisième oraison";
             // 
-            this.oraison11.Name = "oraison11";
-            this.oraison11.Size = new System.Drawing.Size(208, 26);
-            this.oraison11.Text = "11ère Oraison";
+            // oraisonQuatrieme
             // 
-            // oraison12
+            this.oraisonQuatrieme.Name = "oraisonQuatrieme";
+            this.oraisonQuatrieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonQuatrieme.Text = "Quatrième oraison";
             // 
-            this.oraison12.Name = "oraison12";
-            this.oraison12.Size = new System.Drawing.Size(208, 26);
-            this.oraison12.Text = "12ère Oraison";
+            // oraisonCinquieme
             // 
-            // oraison13
+            this.oraisonCinquieme.Name = "oraisonCinquieme";
+            this.oraisonCinquieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonCinquieme.Text = "Cinquième oraison";
             // 
-            this.oraison13.Name = "oraison13";
-            this.oraison13.Size = new System.Drawing.Size(208, 26);
-            this.oraison13.Text = "13ère Oraison";
+            // oraisonSixieme
             // 
-            // oraison14
+            this.oraisonSixieme.Name = "oraisonSixieme";
+            this.oraisonSixieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonSixieme.Text = "Sixième oraison";
             // 
-            this.oraison14.Name = "oraison14";
-            this.oraison14.Size = new System.Drawing.Size(208, 26);
-            this.oraison14.Text = "14ère Oraison";
+            // oraisonSeptieme
             // 
-            // oraison15
+            this.oraisonSeptieme.Name = "oraisonSeptieme";
+            this.oraisonSeptieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonSeptieme.Text = "Septième oraison";
             // 
-            this.oraison15.Name = "oraison15";
-            this.oraison15.Size = new System.Drawing.Size(208, 26);
-            this.oraison15.Text = "15ère Oraison";
+            // oraisonHuitieme
             // 
-            // polskiToolStripMenuItem2
+            this.oraisonHuitieme.Name = "oraisonHuitieme";
+            this.oraisonHuitieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonHuitieme.Text = "Huitième oraison";
             // 
-            this.polskiToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.credoPl,
-            this.zdrowaskaPl,
-            this.ojczeNaszPl,
-            this.doSwJozefa,
-            this.litaniaDoŚwJózefaPL,
-            this.śwBrygidaToolStripMenuItem});
-            this.polskiToolStripMenuItem2.Name = "polskiToolStripMenuItem2";
-            this.polskiToolStripMenuItem2.Size = new System.Drawing.Size(180, 26);
-            this.polskiToolStripMenuItem2.Text = "Polski";
+            // oraisonNeuvieme
             // 
-            // credoPl
+            this.oraisonNeuvieme.Name = "oraisonNeuvieme";
+            this.oraisonNeuvieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonNeuvieme.Text = "Neuvième oraison";
             // 
-            this.credoPl.Name = "credoPl";
-            this.credoPl.Size = new System.Drawing.Size(271, 26);
-            this.credoPl.Text = "Credo";
+            // oraisonDixieme
             // 
-            // zdrowaskaPl
+            this.oraisonDixieme.Name = "oraisonDixieme";
+            this.oraisonDixieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonDixieme.Text = "Dixième oraison";
             // 
-            this.zdrowaskaPl.Name = "zdrowaskaPl";
-            this.zdrowaskaPl.Size = new System.Drawing.Size(271, 26);
-            this.zdrowaskaPl.Text = "Ave Maria";
+            // oraisonOnzieme
             // 
-            // ojczeNaszPl
+            this.oraisonOnzieme.Name = "oraisonOnzieme";
+            this.oraisonOnzieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonOnzieme.Text = "Onzième oraison";
             // 
-            this.ojczeNaszPl.Name = "ojczeNaszPl";
-            this.ojczeNaszPl.Size = new System.Drawing.Size(271, 26);
-            this.ojczeNaszPl.Text = "Pater Noster";
+            // oraisonoDouzieme
             // 
-            // doSwJozefa
+            this.oraisonoDouzieme.Name = "oraisonoDouzieme";
+            this.oraisonoDouzieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonoDouzieme.Text = "Douzième oraison";
             // 
-            this.doSwJozefa.Name = "doSwJozefa";
-            this.doSwJozefa.Size = new System.Drawing.Size(271, 26);
-            this.doSwJozefa.Text = "Do Św. Józefa";
+            // oraisonTreizieme
             // 
-            // litaniaDoŚwJózefaPL
+            this.oraisonTreizieme.Name = "oraisonTreizieme";
+            this.oraisonTreizieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonTreizieme.Text = "Treizième oraison";
             // 
-            this.litaniaDoŚwJózefaPL.Name = "litaniaDoŚwJózefaPL";
-            this.litaniaDoŚwJózefaPL.Size = new System.Drawing.Size(271, 26);
-            this.litaniaDoŚwJózefaPL.Text = "Litania do Św. Józefa";
+            // oraisonQuatorzieme
             // 
-            // śwBrygidaToolStripMenuItem
+            this.oraisonQuatorzieme.Name = "oraisonQuatorzieme";
+            this.oraisonQuatorzieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonQuatorzieme.Text = "Quatorzième oraison";
             // 
-            this.śwBrygidaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.modlitwa1,
-            this.modlitwa2,
-            this.modlitwa3,
-            this.modlitwa4,
-            this.modlitwa5,
-            this.modlitwa6,
-            this.modlitwa7,
-            this.modlitwa8,
-            this.modlitwa9,
-            this.modlitwa10,
-            this.modlitwa11,
-            this.modlitwa12,
-            this.modlitwa13,
-            this.modlitwa14,
-            this.modlitwa15});
-            this.śwBrygidaToolStripMenuItem.Name = "śwBrygidaToolStripMenuItem";
-            this.śwBrygidaToolStripMenuItem.Size = new System.Drawing.Size(271, 26);
-            this.śwBrygidaToolStripMenuItem.Text = "Modlitwa Św Brygidy";
+            // oraisonQuinzieme
             // 
-            // modlitwa1
+            this.oraisonQuinzieme.Name = "oraisonQuinzieme";
+            this.oraisonQuinzieme.Size = new System.Drawing.Size(265, 28);
+            this.oraisonQuinzieme.Text = "Quinzième oraison";
             // 
-            this.modlitwa1.Name = "modlitwa1";
-            this.modlitwa1.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa1.Text = "Modlitwa Pierwsza";
+            // prièresEnLatinToolStripMenuItem
             // 
-            // modlitwa2
+            this.prièresEnLatinToolStripMenuItem.Name = "prièresEnLatinToolStripMenuItem";
+            this.prièresEnLatinToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.prièresEnLatinToolStripMenuItem.Text = "Prières en Latin";
             // 
-            this.modlitwa2.Name = "modlitwa2";
-            this.modlitwa2.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa2.Text = "Modlitwa Druga";
+            // antiennesÀLaViergeToolStripMenuItem
             // 
-            // modlitwa3
+            this.antiennesÀLaViergeToolStripMenuItem.Name = "antiennesÀLaViergeToolStripMenuItem";
+            this.antiennesÀLaViergeToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.antiennesÀLaViergeToolStripMenuItem.Text = "Antiennes à la Vierge";
             // 
-            this.modlitwa3.Name = "modlitwa3";
-            this.modlitwa3.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa3.Text = "Modlitwa Trzecia";
+            // chantsEnFrançaisToolStripMenuItem
             // 
-            // modlitwa4
-            // 
-            this.modlitwa4.Name = "modlitwa4";
-            this.modlitwa4.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa4.Text = "Modlitwa Czwarta";
-            // 
-            // modlitwa5
-            // 
-            this.modlitwa5.Name = "modlitwa5";
-            this.modlitwa5.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa5.Text = "Modlitwa Piąta";
-            // 
-            // modlitwa6
-            // 
-            this.modlitwa6.Name = "modlitwa6";
-            this.modlitwa6.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa6.Text = "Modlitwa Szósta";
-            // 
-            // modlitwa7
-            // 
-            this.modlitwa7.Name = "modlitwa7";
-            this.modlitwa7.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa7.Text = "Modlitwa Siódma";
-            // 
-            // modlitwa8
-            // 
-            this.modlitwa8.Name = "modlitwa8";
-            this.modlitwa8.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa8.Text = "Modlitwa Ósma";
-            // 
-            // modlitwa9
-            // 
-            this.modlitwa9.Name = "modlitwa9";
-            this.modlitwa9.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa9.Text = "Modlitwa Dziewiąta";
-            // 
-            // modlitwa10
-            // 
-            this.modlitwa10.Name = "modlitwa10";
-            this.modlitwa10.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa10.Text = "Modlitwa Dziesiąta";
-            // 
-            // modlitwa11
-            // 
-            this.modlitwa11.Name = "modlitwa11";
-            this.modlitwa11.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa11.Text = "Modlitwa Jedenasta";
-            // 
-            // modlitwa12
-            // 
-            this.modlitwa12.Name = "modlitwa12";
-            this.modlitwa12.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa12.Text = "Modlitwa Dwunasta";
-            // 
-            // modlitwa13
-            // 
-            this.modlitwa13.Name = "modlitwa13";
-            this.modlitwa13.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa13.Text = "Modlitwa Trzynasta";
-            // 
-            // modlitwa14
-            // 
-            this.modlitwa14.Name = "modlitwa14";
-            this.modlitwa14.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa14.Text = "Modlitwa Czternasta";
-            // 
-            // modlitwa15
-            // 
-            this.modlitwa15.Name = "modlitwa15";
-            this.modlitwa15.Size = new System.Drawing.Size(267, 26);
-            this.modlitwa15.Text = "Modlitwa Piętnasta";
-            // 
-            // latineToolStripMenuItem
-            // 
-            this.latineToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.credoLatine,
-            this.aveMariaLatine,
-            this.paterNosterLatine,
-            this.novenaStIosephLatine,
-            this.litaniaeSanctiIoseph,
-            this.orationesSancteBrigitteToolStripMenuItem});
-            this.latineToolStripMenuItem.Name = "latineToolStripMenuItem";
-            this.latineToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.latineToolStripMenuItem.Text = "Latine";
-            // 
-            // credoLatine
-            // 
-            this.credoLatine.Name = "credoLatine";
-            this.credoLatine.Size = new System.Drawing.Size(309, 26);
-            this.credoLatine.Text = "Credo";
-            // 
-            // aveMariaLatine
-            // 
-            this.aveMariaLatine.Name = "aveMariaLatine";
-            this.aveMariaLatine.Size = new System.Drawing.Size(309, 26);
-            this.aveMariaLatine.Text = "Ave Maria";
-            // 
-            // paterNosterLatine
-            // 
-            this.paterNosterLatine.Name = "paterNosterLatine";
-            this.paterNosterLatine.Size = new System.Drawing.Size(309, 26);
-            this.paterNosterLatine.Text = "Pater Noster";
-            // 
-            // novenaStIosephLatine
-            // 
-            this.novenaStIosephLatine.Name = "novenaStIosephLatine";
-            this.novenaStIosephLatine.Size = new System.Drawing.Size(309, 26);
-            this.novenaStIosephLatine.Text = "Novena ad S. Ioseph";
-            // 
-            // litaniaeSanctiIoseph
-            // 
-            this.litaniaeSanctiIoseph.Name = "litaniaeSanctiIoseph";
-            this.litaniaeSanctiIoseph.Size = new System.Drawing.Size(309, 26);
-            this.litaniaeSanctiIoseph.Text = "Litaniae Sancti Ioseph";
-            // 
-            // orationesSancteBrigitteToolStripMenuItem
-            // 
-            this.orationesSancteBrigitteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.oratio1,
-            this.oratio2,
-            this.oratio3,
-            this.oratio4,
-            this.oratio5,
-            this.oratio6,
-            this.oratio7,
-            this.oratio8,
-            this.oratio9,
-            this.oratio10,
-            this.oratio11,
-            this.oratio12,
-            this.oratio13,
-            this.oratio14,
-            this.oratio15,
-            this.conclusio});
-            this.orationesSancteBrigitteToolStripMenuItem.Name = "orationesSancteBrigitteToolStripMenuItem";
-            this.orationesSancteBrigitteToolStripMenuItem.Size = new System.Drawing.Size(309, 26);
-            this.orationesSancteBrigitteToolStripMenuItem.Text = "Orationes sancte Brigitte";
-            // 
-            // oratio1
-            // 
-            this.oratio1.Name = "oratio1";
-            this.oratio1.Size = new System.Drawing.Size(274, 26);
-            this.oratio1.Text = "Oratio Prima";
-            // 
-            // oratio2
-            // 
-            this.oratio2.Name = "oratio2";
-            this.oratio2.Size = new System.Drawing.Size(274, 26);
-            this.oratio2.Text = "Oratio secunda";
-            // 
-            // oratio3
-            // 
-            this.oratio3.Name = "oratio3";
-            this.oratio3.Size = new System.Drawing.Size(274, 26);
-            this.oratio3.Text = "Oratio tertia";
-            // 
-            // oratio4
-            // 
-            this.oratio4.Name = "oratio4";
-            this.oratio4.Size = new System.Drawing.Size(274, 26);
-            this.oratio4.Text = "Oratio quarta";
-            // 
-            // oratio5
-            // 
-            this.oratio5.Name = "oratio5";
-            this.oratio5.Size = new System.Drawing.Size(274, 26);
-            this.oratio5.Text = "Oratio quinta";
-            // 
-            // oratio6
-            // 
-            this.oratio6.Name = "oratio6";
-            this.oratio6.Size = new System.Drawing.Size(274, 26);
-            this.oratio6.Text = "Oratio sexta";
-            // 
-            // oratio7
-            // 
-            this.oratio7.Name = "oratio7";
-            this.oratio7.Size = new System.Drawing.Size(274, 26);
-            this.oratio7.Text = "Oratio septima";
-            // 
-            // oratio8
-            // 
-            this.oratio8.Name = "oratio8";
-            this.oratio8.Size = new System.Drawing.Size(274, 26);
-            this.oratio8.Text = "Oratio octava";
-            // 
-            // oratio9
-            // 
-            this.oratio9.Name = "oratio9";
-            this.oratio9.Size = new System.Drawing.Size(274, 26);
-            this.oratio9.Text = "Oratio nona";
-            // 
-            // oratio10
-            // 
-            this.oratio10.Name = "oratio10";
-            this.oratio10.Size = new System.Drawing.Size(274, 26);
-            this.oratio10.Text = "Oratio decima";
-            // 
-            // oratio11
-            // 
-            this.oratio11.Name = "oratio11";
-            this.oratio11.Size = new System.Drawing.Size(274, 26);
-            this.oratio11.Text = "Oratio undecima";
-            // 
-            // oratio12
-            // 
-            this.oratio12.Name = "oratio12";
-            this.oratio12.Size = new System.Drawing.Size(274, 26);
-            this.oratio12.Text = "Oratio duodecima";
-            // 
-            // oratio13
-            // 
-            this.oratio13.Name = "oratio13";
-            this.oratio13.Size = new System.Drawing.Size(274, 26);
-            this.oratio13.Text = "Oratio decima tertia";
-            // 
-            // oratio14
-            // 
-            this.oratio14.Name = "oratio14";
-            this.oratio14.Size = new System.Drawing.Size(274, 26);
-            this.oratio14.Text = "Oratio decima quarta";
-            // 
-            // oratio15
-            // 
-            this.oratio15.Name = "oratio15";
-            this.oratio15.Size = new System.Drawing.Size(274, 26);
-            this.oratio15.Text = "Oratio decima quinta";
-            // 
-            // conclusio
-            // 
-            this.conclusio.Name = "conclusio";
-            this.conclusio.Size = new System.Drawing.Size(274, 26);
-            this.conclusio.Text = "Conclusio";
+            this.chantsEnFrançaisToolStripMenuItem.Name = "chantsEnFrançaisToolStripMenuItem";
+            this.chantsEnFrançaisToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.chantsEnFrançaisToolStripMenuItem.Text = "Chants en Français";
             // 
             // wypad
             // 
             this.wypad.Name = "wypad";
             this.wypad.Size = new System.Drawing.Size(32, 19);
-            // 
-            // panelLewyWewnatrz
-            // 
-            this.panelLewyWewnatrz.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.panelLewyWewnatrz.BackgroundImage = global::chapelet.Properties.Resources.la_salette_cross_white;
-            this.panelLewyWewnatrz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelLewyWewnatrz.Location = new System.Drawing.Point(-2, 395);
-            this.panelLewyWewnatrz.Name = "panelLewyWewnatrz";
-            this.panelLewyWewnatrz.Size = new System.Drawing.Size(227, 343);
-            this.panelLewyWewnatrz.TabIndex = 2;
             // 
             // richTextBox1
             // 
@@ -1279,7 +900,7 @@ namespace chapelet
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.richTextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Font = new System.Drawing.Font("Book Antiqua", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(226, 30);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
@@ -1302,172 +923,62 @@ namespace chapelet
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Font = new System.Drawing.Font("Perpetua", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.monthCalendar1.Location = new System.Drawing.Point(-2, 210);
+            this.monthCalendar1.Font = new System.Drawing.Font("Book Antiqua", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthCalendar1.Location = new System.Drawing.Point(0, 210);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 12;
             // 
-            // englishToolStripMenuItem
+            // panelLewyWewnatrz
             // 
-            this.englishToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.credoEn,
-            this.hailMary,
-            this.ourFather,
-            this.prayerToStJoseph,
-            this.litanyOfStJoseph,
-            this.prayersOfStBridgetToolStripMenuItem});
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            this.englishToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.englishToolStripMenuItem.Text = "English";
+            this.panelLewyWewnatrz.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panelLewyWewnatrz.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLewyWewnatrz.BackgroundImage")));
+            this.panelLewyWewnatrz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelLewyWewnatrz.Location = new System.Drawing.Point(-2, 429);
+            this.panelLewyWewnatrz.Name = "panelLewyWewnatrz";
+            this.panelLewyWewnatrz.Size = new System.Drawing.Size(227, 281);
+            this.panelLewyWewnatrz.TabIndex = 2;
             // 
-            // credoEn
+            // litaniesDeSaintJosephFR
             // 
-            this.credoEn.Name = "credoEn";
-            this.credoEn.Size = new System.Drawing.Size(278, 26);
-            this.credoEn.Text = "Credo";
+            this.litaniesDeSaintJosephFR.Name = "litaniesDeSaintJosephFR";
+            this.litaniesDeSaintJosephFR.Size = new System.Drawing.Size(289, 28);
+            this.litaniesDeSaintJosephFR.Text = "Litanies de saint Joseph";
             // 
-            // hailMary
+            // gloireAuPere
             // 
-            this.hailMary.Name = "hailMary";
-            this.hailMary.Size = new System.Drawing.Size(278, 26);
-            this.hailMary.Text = "Hail Mary";
+            this.gloireAuPere.Name = "gloireAuPere";
+            this.gloireAuPere.Size = new System.Drawing.Size(260, 28);
+            this.gloireAuPere.Text = "Gloire au Père";
             // 
-            // ourFather
+            // acteDeFoi
             // 
-            this.ourFather.Name = "ourFather";
-            this.ourFather.Size = new System.Drawing.Size(278, 26);
-            this.ourFather.Text = "Our Father";
+            this.acteDeFoi.Name = "acteDeFoi";
+            this.acteDeFoi.Size = new System.Drawing.Size(260, 28);
+            this.acteDeFoi.Text = "Acte de foi";
             // 
-            // prayerToStJoseph
+            // acteDesperance
             // 
-            this.prayerToStJoseph.Name = "prayerToStJoseph";
-            this.prayerToStJoseph.Size = new System.Drawing.Size(278, 26);
-            this.prayerToStJoseph.Text = "Prayer to St. Joseph";
+            this.acteDesperance.Name = "acteDesperance";
+            this.acteDesperance.Size = new System.Drawing.Size(260, 28);
+            this.acteDesperance.Text = "Acte d\'esperance";
             // 
-            // litanyOfStJoseph
+            // acteDeCharite
             // 
-            this.litanyOfStJoseph.Name = "litanyOfStJoseph";
-            this.litanyOfStJoseph.Size = new System.Drawing.Size(278, 26);
-            this.litanyOfStJoseph.Text = "Litany of St. Joseph";
+            this.acteDeCharite.Name = "acteDeCharite";
+            this.acteDeCharite.Size = new System.Drawing.Size(260, 28);
+            this.acteDeCharite.Text = "Acte de charité";
             // 
-            // prayersOfStBridgetToolStripMenuItem
+            // acteDeContrition
             // 
-            this.prayersOfStBridgetToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.firstPrayer,
-            this.secondPrayer,
-            this.thirdPrayer,
-            this.fourthPrayer,
-            this.fifthPrayer,
-            this.sixthPrayer,
-            this.seventhPrayer,
-            this.eighthPrayer,
-            this.ninthPrayer,
-            this.tenthPrayer,
-            this.eleventhPrayer,
-            this.twelfthPrayer,
-            this.thirteenthPrayer,
-            this.fourteenthPrayer,
-            this.fifteenthPrayer,
-            this.conclusion});
-            this.prayersOfStBridgetToolStripMenuItem.Name = "prayersOfStBridgetToolStripMenuItem";
-            this.prayersOfStBridgetToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
-            this.prayersOfStBridgetToolStripMenuItem.Text = "Prayers of St. Bridget";
+            this.acteDeContrition.Name = "acteDeContrition";
+            this.acteDeContrition.Size = new System.Drawing.Size(260, 28);
+            this.acteDeContrition.Text = "Acte de Contrition";
             // 
-            // firstPrayer
+            // jeConfesseADieu
             // 
-            this.firstPrayer.Name = "firstPrayer";
-            this.firstPrayer.Size = new System.Drawing.Size(245, 26);
-            this.firstPrayer.Text = "First Prayer";
-            // 
-            // secondPrayer
-            // 
-            this.secondPrayer.Name = "secondPrayer";
-            this.secondPrayer.Size = new System.Drawing.Size(245, 26);
-            this.secondPrayer.Text = "Second Prayer";
-            // 
-            // thirdPrayer
-            // 
-            this.thirdPrayer.Name = "thirdPrayer";
-            this.thirdPrayer.Size = new System.Drawing.Size(245, 26);
-            this.thirdPrayer.Text = "Third Prayer";
-            // 
-            // fourthPrayer
-            // 
-            this.fourthPrayer.Name = "fourthPrayer";
-            this.fourthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.fourthPrayer.Text = "Fourth Prayer";
-            // 
-            // fifthPrayer
-            // 
-            this.fifthPrayer.Name = "fifthPrayer";
-            this.fifthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.fifthPrayer.Text = "Fifth Prayer";
-            // 
-            // sixthPrayer
-            // 
-            this.sixthPrayer.Name = "sixthPrayer";
-            this.sixthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.sixthPrayer.Text = "Sixth Prayer";
-            // 
-            // seventhPrayer
-            // 
-            this.seventhPrayer.Name = "seventhPrayer";
-            this.seventhPrayer.Size = new System.Drawing.Size(245, 26);
-            this.seventhPrayer.Text = "Seventh Prayer";
-            // 
-            // eighthPrayer
-            // 
-            this.eighthPrayer.Name = "eighthPrayer";
-            this.eighthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.eighthPrayer.Text = "Eighth Prayer";
-            // 
-            // ninthPrayer
-            // 
-            this.ninthPrayer.Name = "ninthPrayer";
-            this.ninthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.ninthPrayer.Text = "Ninth Prayer";
-            // 
-            // tenthPrayer
-            // 
-            this.tenthPrayer.Name = "tenthPrayer";
-            this.tenthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.tenthPrayer.Text = "Tenth Prayer";
-            // 
-            // eleventhPrayer
-            // 
-            this.eleventhPrayer.Name = "eleventhPrayer";
-            this.eleventhPrayer.Size = new System.Drawing.Size(245, 26);
-            this.eleventhPrayer.Text = "Eleventh Prayer";
-            // 
-            // twelfthPrayer
-            // 
-            this.twelfthPrayer.Name = "twelfthPrayer";
-            this.twelfthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.twelfthPrayer.Text = "Twelfth Prayer";
-            // 
-            // thirteenthPrayer
-            // 
-            this.thirteenthPrayer.Name = "thirteenthPrayer";
-            this.thirteenthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.thirteenthPrayer.Text = "Thirteenth Prayer";
-            // 
-            // fourteenthPrayer
-            // 
-            this.fourteenthPrayer.Name = "fourteenthPrayer";
-            this.fourteenthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.fourteenthPrayer.Text = "Fourteenth Prayer";
-            // 
-            // fifteenthPrayer
-            // 
-            this.fifteenthPrayer.Name = "fifteenthPrayer";
-            this.fifteenthPrayer.Size = new System.Drawing.Size(245, 26);
-            this.fifteenthPrayer.Text = "Fifteenth Prayer";
-            // 
-            // conclusion
-            // 
-            this.conclusion.Name = "conclusion";
-            this.conclusion.Size = new System.Drawing.Size(245, 26);
-            this.conclusion.Text = "Conclusion";
+            this.jeConfesseADieu.Name = "jeConfesseADieu";
+            this.jeConfesseADieu.Size = new System.Drawing.Size(260, 28);
+            this.jeConfesseADieu.Text = "Je confesse à Dieu";
             // 
             // Form1
             // 
@@ -1493,12 +1004,8 @@ namespace chapelet
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.menuStrip5.ResumeLayout(false);
-            this.menuStrip5.PerformLayout();
             this.menuStrip4.ResumeLayout(false);
             this.menuStrip4.PerformLayout();
-            this.menuStrip3.ResumeLayout(false);
-            this.menuStrip3.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -1519,48 +1026,14 @@ namespace chapelet
         public System.Windows.Forms.ToolStripMenuItem orationesToolStripMenuItem1;
         private System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.MenuStrip menuStrip2;
-        public System.Windows.Forms.ToolStripMenuItem polskiToolStripMenuItem2;
-        public System.Windows.Forms.ToolStripMenuItem orationesCredoFrancais;
-        public System.Windows.Forms.ToolStripMenuItem aveMariaFrancais;
-        public System.Windows.Forms.ToolStripMenuItem paterNosterFrancais;
-        private System.Windows.Forms.ToolStripMenuItem credoPl;
-        private System.Windows.Forms.ToolStripMenuItem zdrowaskaPl;
-        private System.Windows.Forms.ToolStripMenuItem ojczeNaszPl;
         private System.Windows.Forms.MenuStrip menuStrip4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem13;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem14;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem15;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem17;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem18;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem19;
-        private System.Windows.Forms.MenuStrip menuStrip3;
-        public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
         public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        public System.Windows.Forms.ToolStripMenuItem orationesToolStripMenuItem2;
         private System.Windows.Forms.Panel panelBttMin;
         private System.Windows.Forms.Panel panelBttClose;
         public System.Windows.Forms.ToolStripMenuItem wypad;
-        private System.Windows.Forms.MenuStrip menuStrip5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
-        private System.Windows.Forms.ToolStripMenuItem creoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem legereToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editeoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem delereToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem latineToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem credoLatine;
-        private System.Windows.Forms.ToolStripMenuItem aveMariaLatine;
-        private System.Windows.Forms.ToolStripMenuItem paterNosterLatine;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
@@ -1592,86 +1065,62 @@ namespace chapelet
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         public System.Windows.Forms.RichTextBox richTextBox1;
-        public System.Windows.Forms.ToolStripMenuItem novenaStIosephLatine;
-        private System.Windows.Forms.ToolStripMenuItem doSwJozefa;
         private System.Windows.Forms.Label labelMail;
-        private System.Windows.Forms.ToolStripMenuItem priereStJosephFrancais;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.ToolStripMenuItem litaniesDeStJosephFR;
-        private System.Windows.Forms.ToolStripMenuItem litaniaDoŚwJózefaPL;
-        private System.Windows.Forms.ToolStripMenuItem litaniaeSanctiIoseph;
-        private System.Windows.Forms.ToolStripMenuItem śwBrygidaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa1;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa2;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa3;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa4;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa5;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa6;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa7;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa8;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa9;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa10;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa11;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa12;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa13;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa14;
-        private System.Windows.Forms.ToolStripMenuItem modlitwa15;
-        private System.Windows.Forms.ToolStripMenuItem orationesSancteBrigitteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem les15OraisonsDeSainteBrigitteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem oraison1;
-        private System.Windows.Forms.ToolStripMenuItem oraison2;
-        private System.Windows.Forms.ToolStripMenuItem oraison3;
-        private System.Windows.Forms.ToolStripMenuItem oraison4;
-        private System.Windows.Forms.ToolStripMenuItem oraison5;
-        private System.Windows.Forms.ToolStripMenuItem oraison6;
-        private System.Windows.Forms.ToolStripMenuItem oraison7;
-        private System.Windows.Forms.ToolStripMenuItem oraison8;
-        private System.Windows.Forms.ToolStripMenuItem oraison9;
-        private System.Windows.Forms.ToolStripMenuItem oraison10;
-        private System.Windows.Forms.ToolStripMenuItem oraison11;
-        private System.Windows.Forms.ToolStripMenuItem oraison12;
-        private System.Windows.Forms.ToolStripMenuItem oraison13;
-        private System.Windows.Forms.ToolStripMenuItem oraison14;
-        private System.Windows.Forms.ToolStripMenuItem oraison15;
-        private System.Windows.Forms.ToolStripMenuItem oratio1;
-        private System.Windows.Forms.ToolStripMenuItem oratio2;
-        private System.Windows.Forms.ToolStripMenuItem oratio3;
-        private System.Windows.Forms.ToolStripMenuItem oratio4;
-        private System.Windows.Forms.ToolStripMenuItem oratio5;
-        private System.Windows.Forms.ToolStripMenuItem oratio6;
-        private System.Windows.Forms.ToolStripMenuItem oratio7;
-        private System.Windows.Forms.ToolStripMenuItem oratio8;
-        private System.Windows.Forms.ToolStripMenuItem oratio9;
-        private System.Windows.Forms.ToolStripMenuItem oratio10;
-        private System.Windows.Forms.ToolStripMenuItem oratio11;
-        private System.Windows.Forms.ToolStripMenuItem oratio12;
-        private System.Windows.Forms.ToolStripMenuItem oratio13;
-        private System.Windows.Forms.ToolStripMenuItem oratio14;
-        private System.Windows.Forms.ToolStripMenuItem oratio15;
-        private System.Windows.Forms.ToolStripMenuItem conclusio;
-        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem credoEn;
-        private System.Windows.Forms.ToolStripMenuItem hailMary;
-        private System.Windows.Forms.ToolStripMenuItem ourFather;
-        private System.Windows.Forms.ToolStripMenuItem prayerToStJoseph;
-        private System.Windows.Forms.ToolStripMenuItem litanyOfStJoseph;
-        private System.Windows.Forms.ToolStripMenuItem prayersOfStBridgetToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem firstPrayer;
-        private System.Windows.Forms.ToolStripMenuItem secondPrayer;
-        private System.Windows.Forms.ToolStripMenuItem thirdPrayer;
-        private System.Windows.Forms.ToolStripMenuItem fourthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem fifthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem sixthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem seventhPrayer;
-        private System.Windows.Forms.ToolStripMenuItem eighthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem ninthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem tenthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem eleventhPrayer;
-        private System.Windows.Forms.ToolStripMenuItem twelfthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem thirteenthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem fourteenthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem fifteenthPrayer;
-        private System.Windows.Forms.ToolStripMenuItem conclusion;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem latineToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem theJoyfulMysteriesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem theSorrowfulMysteriesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem theGloriousMysteriesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem theMysteriesOfLightToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tajemniceRadosneToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tajemniceBolesneToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tajemniceChwalebneToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tajemniceŚwiatłaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zwiastowanieNMPŁk12638ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem narodzenieJezusaJ2114ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem introductionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem prinicipalesPrièresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pourLesPetitsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pourLesPlusGrandsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem litaniesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem leChapeletToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pourBienSeConfesserToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laCommunionEtLadorationEucharistiqueToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laCheminDeCroixToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem prièresEnLatinToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem antiennesÀLaViergeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chantsEnFrançaisToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem credoFR;
+        private System.Windows.Forms.ToolStripMenuItem les15OraisonsDeSainteBrigitteToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem notrePereFR;
+        private System.Windows.Forms.ToolStripMenuItem jeVousSalueMarieFR;
+        private System.Windows.Forms.ToolStripMenuItem priereASaintJosepFR;
+        private System.Windows.Forms.ToolStripMenuItem oraisonPremiere;
+        private System.Windows.Forms.ToolStripMenuItem oraisonSeconde;
+        private System.Windows.Forms.ToolStripMenuItem oraisonTroisieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonQuatrieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonCinquieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonSixieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonSeptieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonHuitieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonNeuvieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonDixieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonOnzieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonoDouzieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonTreizieme;
+        private System.Windows.Forms.ToolStripMenuItem oraisonQuatorzieme;        
+        private System.Windows.Forms.ToolStripMenuItem oraisonQuinzieme;
+        private System.Windows.Forms.ToolStripMenuItem litaniesDeSaintJosephFR;
+        private System.Windows.Forms.ToolStripMenuItem gloireAuPere;
+        private System.Windows.Forms.ToolStripMenuItem acteDeFoi;
+        private System.Windows.Forms.ToolStripMenuItem acteDesperance;
+        private System.Windows.Forms.ToolStripMenuItem acteDeCharite;
+        private System.Windows.Forms.ToolStripMenuItem acteDeContrition;
+        private System.Windows.Forms.ToolStripMenuItem jeConfesseADieu;
     }
 }
 

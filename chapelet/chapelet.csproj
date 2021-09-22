@@ -96,12 +96,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuStripOne.cs" />
-    <Compile Include="OrationesEnglish.cs" />
-    <Compile Include="OrationesFrancais.cs" />
-    <Compile Include="OrationesLatine.cs" />
-    <Compile Include="OrationesPolski.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\Litanies.cs" />
+    <Compile Include="Repo\PrincipalesPrieres.cs" />
+    <Compile Include="Repo\QuinzeOraison.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\cross_00-removebg.png" />
+    <None Include="Resources\dlonie.png" />
     <None Include="Resources\virgin-mary-removebg-black %282%29.png" />
     <None Include="Resources\virgin_mary_bgremove_white %282%29.png" />
     <None Include="Resources\Screenshot_blue.png" />

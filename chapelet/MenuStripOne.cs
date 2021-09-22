@@ -28,7 +28,7 @@ namespace chapelet
         {
             myForm.richTextBox1.ReadOnly = false;
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "All files (*.*) | *.*";
+            ofd.Filter = "Txt files (*.txt) | *.txt";
             ofd.Title = "Open a file ...";
             if (ofd.ShowDialog() == DialogResult.OK)
             {

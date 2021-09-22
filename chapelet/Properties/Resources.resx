@@ -127,6 +127,9 @@
   <data name="la_salette_cross_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\la_salette_cross_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="virgin_mary_bgremove_white__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\virgin_mary_bgremove_white (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minimize_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,19 +139,13 @@
   <data name="cross_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cross_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dlonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dlonie.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cross_00-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cross_00-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dlonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dlonie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="virgin_mary_bgremove_white__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\virgin_mary_bgremove_white (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="virgin_mary_removebg_black__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\virgin-mary-removebg-black (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dlonie1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dlonie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
