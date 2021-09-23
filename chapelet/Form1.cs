@@ -34,9 +34,27 @@ namespace chapelet
             acteDeCharite.Click += Repo.PrincipalesPrieres.ActeDeCharite_Click;
             acteDeContrition.Click += Repo.PrincipalesPrieres.ActeDeContrition_Click;
             jeConfesseADieu.Click += Repo.PrincipalesPrieres.JeConfesseADieu_Click;
+            acteDeContritionI.Click += Repo.PrincipalesPrieres.ActeDeContrition1_Click;
+            acteDeContritionII.Click += Repo.PrincipalesPrieres.ActeDeContrition2_Click;
+            acteDeContritionIII.Click += Repo.PrincipalesPrieres.ActeDeContrition3_Click;
+            acteDeContritionIV.Click += Repo.PrincipalesPrieres.ActeDeContrition4_Click;
+            saintFrancoisDAssise.Click += Repo.PrincipalesPrieres.StFrancoisAssise_Click;
+            sainteThereseDeLisieux.Click += Repo.PrincipalesPrieres.SainteThereseDeLisieux_Click;
+            prierePourLaFrance.Click += Repo.PrincipalesPrieres.PrierePourLaFrance_Click;
+            priereDuMatinAMarie.Click += Repo.PrincipalesPrieres.PriereDuMatinAMarie_Click;
+            prieresDuMatinASonAngeGardien.Click += Repo.PrincipalesPrieres.StCuredArs_Click;
+            sainteMereTeresa.Click += Repo.PrincipalesPrieres.StMereTeresa_Click;
+            priereAuSaintPadrePio.Click += Repo.PrincipalesPrieres.StPadrePio_Click;
+            priereaSaintAntoineDePadoue.Click += Repo.PrincipalesPrieres.StAntoineDePadoue_Click;
+            priereASaintPaul.Click += Repo.PrincipalesPrieres.StPaul_Click;
+            priereaSaintJosephII.Click += Repo.PrincipalesPrieres.StJosephII_Click;
+            priereSainteTherese.Click += Repo.PrincipalesPrieres.PriereSainteTherese_Click;
 
             litaniesDeSaintJosephFR.Click += Repo.Litanies.LitaniesDeStJosephFR_Click;
-
+            litaniesDeLorette.Click += Repo.Litanies.LitaniesDeLorette_Click;
+            litaniesDePrecieuxSang.Click += Repo.Litanies.LitaniesDePrecieuxSang_Click;
+            litaniesDuChefSacreDeJesus.Click += Repo.Litanies.LitaniesDeChefSacreDeJesus_Click;
+            litaniesDuSaintNomDeJesus.Click += Repo.Litanies.LitaniesDuSaintNomDeJesus_Click;
 
             oraisonPremiere.Click += Repo.QuinzeOraison.OraisonPremiere_Click;
             oraisonSeconde.Click += Repo.QuinzeOraison.OraisonSeconde_Click;
@@ -53,6 +71,7 @@ namespace chapelet
             oraisonTreizieme.Click += Repo.QuinzeOraison.OraisonTreizieme_Click;
             oraisonQuatorzieme.Click += Repo.QuinzeOraison.OraisonQuatorzieme_Click;
             oraisonQuinzieme.Click += Repo.QuinzeOraison.OraisonQuinzieme_Click;
+            
 
             newToolStripMenuItem.Click += MenuStripOne.NewToolStripMenuItem_Click;
             exitToolStripMenuItem.Click += MenuStripOne.ExitToolStripMenuItem_Click;
