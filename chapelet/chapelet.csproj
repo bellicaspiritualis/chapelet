@@ -98,6 +98,7 @@
     <Compile Include="MenuStripOne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\Chapelet.cs" />
     <Compile Include="Repo\Litanies.cs" />
     <Compile Include="Repo\PrincipalesPrieres.cs" />
     <Compile Include="Repo\QuinzeOraison.cs" />

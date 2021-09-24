@@ -55,6 +55,8 @@ namespace chapelet
             litaniesDePrecieuxSang.Click += Repo.Litanies.LitaniesDePrecieuxSang_Click;
             litaniesDuChefSacreDeJesus.Click += Repo.Litanies.LitaniesDeChefSacreDeJesus_Click;
             litaniesDuSaintNomDeJesus.Click += Repo.Litanies.LitaniesDuSaintNomDeJesus_Click;
+            litaniesDesSaints.Click += Repo.Litanies.LitaniesDesSaints_Click;
+            litanieHenriGodin.Click += Repo.Litanies.LitanieHenriGodin_Click;
 
             oraisonPremiere.Click += Repo.QuinzeOraison.OraisonPremiere_Click;
             oraisonSeconde.Click += Repo.QuinzeOraison.OraisonSeconde_Click;
@@ -71,7 +73,27 @@ namespace chapelet
             oraisonTreizieme.Click += Repo.QuinzeOraison.OraisonTreizieme_Click;
             oraisonQuatorzieme.Click += Repo.QuinzeOraison.OraisonQuatorzieme_Click;
             oraisonQuinzieme.Click += Repo.QuinzeOraison.OraisonQuinzieme_Click;
-            
+
+            mysLumi1.Click += Repo.Chapelet.MysLumi1_Click;
+            mysLumi2.Click += Repo.Chapelet.MysLumi2_Click;
+            mysLumi3.Click += Repo.Chapelet.MysLumi3_Click;
+            mysLumi4.Click += Repo.Chapelet.MysLumi4_Click;
+            mysLumi5.Click += Repo.Chapelet.MysLumi5_Click;
+            mysDou1.Click += Repo.Chapelet.MysDou1_Click;
+            mysDou2.Click += Repo.Chapelet.MysDou2_Click;
+            mysDou3.Click += Repo.Chapelet.MysDou3_Click;
+            mysDou4.Click += Repo.Chapelet.MysDou4_Click;
+            mysDou5.Click += Repo.Chapelet.MysDou5_Click;
+            mysJoy1.Click += Repo.Chapelet.MysJoy1_Click;
+            mysJoy2.Click += Repo.Chapelet.MysJoy2_Click;
+            mysJoy3.Click += Repo.Chapelet.MysJoy3_Click;
+            mysJoy4.Click += Repo.Chapelet.MysJoy4_Click;
+            mysJoy5.Click += Repo.Chapelet.MysJoy5_Click;
+            mysGlo1.Click += Repo.Chapelet.MysGlo1_Click;
+            mysGlo2.Click += Repo.Chapelet.MysGlo2_Click;
+            mysGlo3.Click += Repo.Chapelet.MysGlo3_Click;
+            mysGlo4.Click += Repo.Chapelet.MysGlo4_Click;
+            mysGlo5.Click += Repo.Chapelet.MysGlo5_Click;
 
             newToolStripMenuItem.Click += MenuStripOne.NewToolStripMenuItem_Click;
             exitToolStripMenuItem.Click += MenuStripOne.ExitToolStripMenuItem_Click;

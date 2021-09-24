@@ -73,23 +73,6 @@ namespace chapelet
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip4 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.englishToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.theJoyfulMysteriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.theSorrowfulMysteriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.theGloriousMysteriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.theMysteriesOfLightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.latineToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tajemniceRadosneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zwiastowanieNMPŁk12638ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.narodzenieJezusaJ2114ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tajemniceBolesneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tajemniceChwalebneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tajemniceŚwiatłaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.prinicipalesPrièresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -154,6 +137,32 @@ namespace chapelet
             this.litaniesDePrecieuxSang = new System.Windows.Forms.ToolStripMenuItem();
             this.litaniesDuChefSacreDeJesus = new System.Windows.Forms.ToolStripMenuItem();
             this.litaniesDuSaintNomDeJesus = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDesSaints = new System.Windows.Forms.ToolStripMenuItem();
+            this.litanieHenriGodin = new System.Windows.Forms.ToolStripMenuItem();
+            this.mJoyeux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mLumineux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mDouloureux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mGlorieux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo5 = new System.Windows.Forms.ToolStripMenuItem();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -519,133 +528,15 @@ namespace chapelet
             // 
             this.toolStripMenuItem11.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.toolStripMenuItem11.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.englishToolStripMenuItem1,
-            this.toolStripMenuItem12,
-            this.latineToolStripMenuItem1,
-            this.toolStripMenuItem16});
+            this.mJoyeux,
+            this.mDouloureux,
+            this.mGlorieux,
+            this.mLumineux});
             this.toolStripMenuItem11.Font = new System.Drawing.Font("Book Antiqua", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem11.ForeColor = System.Drawing.SystemColors.Desktop;
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
             this.toolStripMenuItem11.Size = new System.Drawing.Size(134, 27);
             this.toolStripMenuItem11.Text = " Le Chapelet";
-            // 
-            // englishToolStripMenuItem1
-            // 
-            this.englishToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.theJoyfulMysteriesToolStripMenuItem,
-            this.theSorrowfulMysteriesToolStripMenuItem,
-            this.theGloriousMysteriesToolStripMenuItem,
-            this.theMysteriesOfLightToolStripMenuItem});
-            this.englishToolStripMenuItem1.Name = "englishToolStripMenuItem1";
-            this.englishToolStripMenuItem1.Size = new System.Drawing.Size(180, 28);
-            this.englishToolStripMenuItem1.Text = "English";
-            // 
-            // theJoyfulMysteriesToolStripMenuItem
-            // 
-            this.theJoyfulMysteriesToolStripMenuItem.Name = "theJoyfulMysteriesToolStripMenuItem";
-            this.theJoyfulMysteriesToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
-            this.theJoyfulMysteriesToolStripMenuItem.Text = "The Joyful Mysteries";
-            // 
-            // theSorrowfulMysteriesToolStripMenuItem
-            // 
-            this.theSorrowfulMysteriesToolStripMenuItem.Name = "theSorrowfulMysteriesToolStripMenuItem";
-            this.theSorrowfulMysteriesToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
-            this.theSorrowfulMysteriesToolStripMenuItem.Text = "The Sorrowful Mysteries";
-            // 
-            // theGloriousMysteriesToolStripMenuItem
-            // 
-            this.theGloriousMysteriesToolStripMenuItem.Name = "theGloriousMysteriesToolStripMenuItem";
-            this.theGloriousMysteriesToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
-            this.theGloriousMysteriesToolStripMenuItem.Text = "The Glorious Mysteries";
-            // 
-            // theMysteriesOfLightToolStripMenuItem
-            // 
-            this.theMysteriesOfLightToolStripMenuItem.Name = "theMysteriesOfLightToolStripMenuItem";
-            this.theMysteriesOfLightToolStripMenuItem.Size = new System.Drawing.Size(300, 28);
-            this.theMysteriesOfLightToolStripMenuItem.Text = "The Luminous Mysteries";
-            // 
-            // toolStripMenuItem12
-            // 
-            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(180, 28);
-            this.toolStripMenuItem12.Text = "Français";
-            // 
-            // latineToolStripMenuItem1
-            // 
-            this.latineToolStripMenuItem1.Name = "latineToolStripMenuItem1";
-            this.latineToolStripMenuItem1.Size = new System.Drawing.Size(180, 28);
-            this.latineToolStripMenuItem1.Text = "Latine";
-            // 
-            // toolStripMenuItem16
-            // 
-            this.toolStripMenuItem16.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tajemniceRadosneToolStripMenuItem,
-            this.tajemniceBolesneToolStripMenuItem,
-            this.tajemniceChwalebneToolStripMenuItem,
-            this.tajemniceŚwiatłaToolStripMenuItem});
-            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 28);
-            this.toolStripMenuItem16.Text = "Polski";
-            // 
-            // tajemniceRadosneToolStripMenuItem
-            // 
-            this.tajemniceRadosneToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zwiastowanieNMPŁk12638ToolStripMenuItem,
-            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem,
-            this.narodzenieJezusaJ2114ToolStripMenuItem,
-            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem,
-            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem});
-            this.tajemniceRadosneToolStripMenuItem.Name = "tajemniceRadosneToolStripMenuItem";
-            this.tajemniceRadosneToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
-            this.tajemniceRadosneToolStripMenuItem.Text = "Tajemnice Radosne";
-            // 
-            // zwiastowanieNMPŁk12638ToolStripMenuItem
-            // 
-            this.zwiastowanieNMPŁk12638ToolStripMenuItem.Name = "zwiastowanieNMPŁk12638ToolStripMenuItem";
-            this.zwiastowanieNMPŁk12638ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
-            this.zwiastowanieNMPŁk12638ToolStripMenuItem.Text = "Zwiastowanie NMP (Łk 1, 26-38)";
-            // 
-            // nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem
-            // 
-            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem.Name = "nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem";
-            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
-            this.nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem.Text = "Nawiedzenie św. Elżbiety (Łk 1, 39-45)";
-            // 
-            // narodzenieJezusaJ2114ToolStripMenuItem
-            // 
-            this.narodzenieJezusaJ2114ToolStripMenuItem.Name = "narodzenieJezusaJ2114ToolStripMenuItem";
-            this.narodzenieJezusaJ2114ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
-            this.narodzenieJezusaJ2114ToolStripMenuItem.Text = "Narodzenie Jezusa (J 2, 1-14)";
-            // 
-            // ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem
-            // 
-            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem.Name = "ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem";
-            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
-            this.ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem.Text = "Ofiarowanie Jezusa w świątyni (Łk 2, 22-40)";
-            // 
-            // znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem
-            // 
-            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem.Name = "znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem";
-            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem.Size = new System.Drawing.Size(466, 28);
-            this.znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem.Text = "Znalezienie Jezusa w świątyni (Łk 2, 41-52)";
-            // 
-            // tajemniceBolesneToolStripMenuItem
-            // 
-            this.tajemniceBolesneToolStripMenuItem.Name = "tajemniceBolesneToolStripMenuItem";
-            this.tajemniceBolesneToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
-            this.tajemniceBolesneToolStripMenuItem.Text = "Tajemnice Bolesne";
-            // 
-            // tajemniceChwalebneToolStripMenuItem
-            // 
-            this.tajemniceChwalebneToolStripMenuItem.Name = "tajemniceChwalebneToolStripMenuItem";
-            this.tajemniceChwalebneToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
-            this.tajemniceChwalebneToolStripMenuItem.Text = "Tajemnice Chwalebne";
-            // 
-            // tajemniceŚwiatłaToolStripMenuItem
-            // 
-            this.tajemniceŚwiatłaToolStripMenuItem.Name = "tajemniceŚwiatłaToolStripMenuItem";
-            this.tajemniceŚwiatłaToolStripMenuItem.Size = new System.Drawing.Size(279, 28);
-            this.tajemniceŚwiatłaToolStripMenuItem.Text = "Tajemnice Światła";
             // 
             // menuStrip2
             // 
@@ -746,7 +637,9 @@ namespace chapelet
             this.litaniesDuChefSacreDeJesus,
             this.litaniesDuSaintNomDeJesus,
             this.litaniesDeSaintJosephFR,
-            this.litaniesDeLorette});
+            this.litaniesDeLorette,
+            this.litaniesDesSaints,
+            this.litanieHenriGodin});
             this.litaniesToolStripMenuItem.Name = "litaniesToolStripMenuItem";
             this.litaniesToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
             this.litaniesToolStripMenuItem.Text = "Litanies";
@@ -754,7 +647,7 @@ namespace chapelet
             // litaniesDeSaintJosephFR
             // 
             this.litaniesDeSaintJosephFR.Name = "litaniesDeSaintJosephFR";
-            this.litaniesDeSaintJosephFR.Size = new System.Drawing.Size(356, 28);
+            this.litaniesDeSaintJosephFR.Size = new System.Drawing.Size(531, 28);
             this.litaniesDeSaintJosephFR.Text = "Litanies de saint Joseph";
             // 
             // pourBienSeConfesserToolStripMenuItem
@@ -1106,26 +999,206 @@ namespace chapelet
             // litaniesDeLorette
             // 
             this.litaniesDeLorette.Name = "litaniesDeLorette";
-            this.litaniesDeLorette.Size = new System.Drawing.Size(356, 28);
+            this.litaniesDeLorette.Size = new System.Drawing.Size(531, 28);
             this.litaniesDeLorette.Text = "Litanies de Lorette";
             // 
             // litaniesDePrecieuxSang
             // 
             this.litaniesDePrecieuxSang.Name = "litaniesDePrecieuxSang";
-            this.litaniesDePrecieuxSang.Size = new System.Drawing.Size(356, 28);
+            this.litaniesDePrecieuxSang.Size = new System.Drawing.Size(531, 28);
             this.litaniesDePrecieuxSang.Text = "Litanies de Précieux Sang";
             // 
             // litaniesDuChefSacreDeJesus
             // 
             this.litaniesDuChefSacreDeJesus.Name = "litaniesDuChefSacreDeJesus";
-            this.litaniesDuChefSacreDeJesus.Size = new System.Drawing.Size(356, 28);
+            this.litaniesDuChefSacreDeJesus.Size = new System.Drawing.Size(531, 28);
             this.litaniesDuChefSacreDeJesus.Text = "Litanies du Chef Sacré de Jésus";
             // 
             // litaniesDuSaintNomDeJesus
             // 
             this.litaniesDuSaintNomDeJesus.Name = "litaniesDuSaintNomDeJesus";
-            this.litaniesDuSaintNomDeJesus.Size = new System.Drawing.Size(356, 28);
+            this.litaniesDuSaintNomDeJesus.Size = new System.Drawing.Size(531, 28);
             this.litaniesDuSaintNomDeJesus.Text = "Litanies du Saint Nom de Jésus";
+            // 
+            // litaniesDesSaints
+            // 
+            this.litaniesDesSaints.Name = "litaniesDesSaints";
+            this.litaniesDesSaints.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDesSaints.Text = "Litanies des saints";
+            // 
+            // litanieHenriGodin
+            // 
+            this.litanieHenriGodin.Name = "litanieHenriGodin";
+            this.litanieHenriGodin.Size = new System.Drawing.Size(531, 28);
+            this.litanieHenriGodin.Text = "Litanie des saints de tous les jours par Henri Godin";
+            // 
+            // mJoyeux
+            // 
+            this.mJoyeux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysJoy1,
+            this.mysJoy2,
+            this.mysJoy3,
+            this.mysJoy4,
+            this.mysJoy5});
+            this.mJoyeux.Name = "mJoyeux";
+            this.mJoyeux.Size = new System.Drawing.Size(390, 28);
+            this.mJoyeux.Text = "Les mystères joyeux (lun/sam)";
+            // 
+            // mLumineux
+            // 
+            this.mLumineux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysLumi1,
+            this.mysLumi2,
+            this.mysLumi3,
+            this.mysLumi4,
+            this.mysLumi5});
+            this.mLumineux.Name = "mLumineux";
+            this.mLumineux.Size = new System.Drawing.Size(390, 28);
+            this.mLumineux.Text = "Les mystères lumineux (jeudi)";
+            // 
+            // mDouloureux
+            // 
+            this.mDouloureux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysDou1,
+            this.mysDou2,
+            this.mysDou3,
+            this.mysDou4,
+            this.mysDou5});
+            this.mDouloureux.Name = "mDouloureux";
+            this.mDouloureux.Size = new System.Drawing.Size(390, 28);
+            this.mDouloureux.Text = "Les mystères douloureux (mar/ven)";
+            // 
+            // mGlorieux
+            // 
+            this.mGlorieux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysGlo1,
+            this.mysGlo2,
+            this.mysGlo3,
+            this.mysGlo4,
+            this.mysGlo5});
+            this.mGlorieux.Name = "mGlorieux";
+            this.mGlorieux.Size = new System.Drawing.Size(390, 28);
+            this.mGlorieux.Text = "Les mystères glorieux (mer/dim)";
+            // 
+            // mysJoy1
+            // 
+            this.mysJoy1.Name = "mysJoy1";
+            this.mysJoy1.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy1.Text = "L’Annonciation";
+            // 
+            // mysJoy2
+            // 
+            this.mysJoy2.Name = "mysJoy2";
+            this.mysJoy2.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy2.Text = "La Visitation";
+            // 
+            // mysJoy3
+            // 
+            this.mysJoy3.Name = "mysJoy3";
+            this.mysJoy3.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy3.Text = "La naissance de Jésus";
+            // 
+            // mysJoy4
+            // 
+            this.mysJoy4.Name = "mysJoy4";
+            this.mysJoy4.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy4.Text = "La Présentation de Jésus au Temple";
+            // 
+            // mysJoy5
+            // 
+            this.mysJoy5.Name = "mysJoy5";
+            this.mysJoy5.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy5.Text = "Le Recouvrement de Jésus au Temple";
+            // 
+            // mysLumi1
+            // 
+            this.mysLumi1.Name = "mysLumi1";
+            this.mysLumi1.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi1.Text = "Le baptême de Jésus";
+            // 
+            // mysLumi2
+            // 
+            this.mysLumi2.Name = "mysLumi2";
+            this.mysLumi2.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi2.Text = "Les noces de Cana";
+            // 
+            // mysLumi3
+            // 
+            this.mysLumi3.Name = "mysLumi3";
+            this.mysLumi3.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi3.Text = "Jésus à la synagogue de Nazareth";
+            // 
+            // mysLumi4
+            // 
+            this.mysLumi4.Name = "mysLumi4";
+            this.mysLumi4.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi4.Text = "La Transfiguration";
+            // 
+            // mysLumi5
+            // 
+            this.mysLumi5.Name = "mysLumi5";
+            this.mysLumi5.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi5.Text = "La Cène et l\'Eucharistie";
+            // 
+            // mysDou1
+            // 
+            this.mysDou1.Name = "mysDou1";
+            this.mysDou1.Size = new System.Drawing.Size(315, 28);
+            this.mysDou1.Text = "Gethsémani";
+            // 
+            // mysDou2
+            // 
+            this.mysDou2.Name = "mysDou2";
+            this.mysDou2.Size = new System.Drawing.Size(315, 28);
+            this.mysDou2.Text = "La flagellation";
+            // 
+            // mysDou3
+            // 
+            this.mysDou3.Name = "mysDou3";
+            this.mysDou3.Size = new System.Drawing.Size(315, 28);
+            this.mysDou3.Text = "Le couronnement d’épines";
+            // 
+            // mysDou4
+            // 
+            this.mysDou4.Name = "mysDou4";
+            this.mysDou4.Size = new System.Drawing.Size(315, 28);
+            this.mysDou4.Text = "Le portement de la croix";
+            // 
+            // mysDou5
+            // 
+            this.mysDou5.Name = "mysDou5";
+            this.mysDou5.Size = new System.Drawing.Size(315, 28);
+            this.mysDou5.Text = "La mort de Jésus en croix";
+            // 
+            // mysGlo1
+            // 
+            this.mysGlo1.Name = "mysGlo1";
+            this.mysGlo1.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo1.Text = "La Résurrection";
+            // 
+            // mysGlo2
+            // 
+            this.mysGlo2.Name = "mysGlo2";
+            this.mysGlo2.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo2.Text = "Ascension";
+            // 
+            // mysGlo3
+            // 
+            this.mysGlo3.Name = "mysGlo3";
+            this.mysGlo3.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo3.Text = "La Pentecôte";
+            // 
+            // mysGlo4
+            // 
+            this.mysGlo4.Name = "mysGlo4";
+            this.mysGlo4.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo4.Text = "L’Elévation de la Sainte Vierge au ciel après sa mort";
+            // 
+            // mysGlo5
+            // 
+            this.mysGlo5.Name = "mysGlo5";
+            this.mysGlo5.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo5.Text = "Le couronnement de la Vierge Marie";
             // 
             // Form1
             // 
@@ -1175,8 +1248,6 @@ namespace chapelet
         public System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.MenuStrip menuStrip4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
         public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Panel panelBttMin;
         private System.Windows.Forms.Panel panelBttClose;
@@ -1214,21 +1285,6 @@ namespace chapelet
         public System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label labelMail;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem latineToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem theJoyfulMysteriesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem theSorrowfulMysteriesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem theGloriousMysteriesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem theMysteriesOfLightToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tajemniceRadosneToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tajemniceBolesneToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tajemniceChwalebneToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tajemniceŚwiatłaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zwiastowanieNMPŁk12638ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nawiedzenieŚwElżbietyŁk13945ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem narodzenieJezusaJ2114ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ofiarowanieJezusaWŚwiątyniŁk22240ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem znalezienieJezusaWŚwiątyniŁk24152ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem prinicipalesPrièresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pourLesPlusGrandsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem litaniesToolStripMenuItem;
@@ -1286,6 +1342,32 @@ namespace chapelet
         private System.Windows.Forms.ToolStripMenuItem litaniesDePrecieuxSang;
         private System.Windows.Forms.ToolStripMenuItem litaniesDuChefSacreDeJesus;
         private System.Windows.Forms.ToolStripMenuItem litaniesDuSaintNomDeJesus;
+        private System.Windows.Forms.ToolStripMenuItem litaniesDesSaints;
+        private System.Windows.Forms.ToolStripMenuItem litanieHenriGodin;
+        private System.Windows.Forms.ToolStripMenuItem mJoyeux;
+        private System.Windows.Forms.ToolStripMenuItem mLumineux;
+        private System.Windows.Forms.ToolStripMenuItem mDouloureux;
+        private System.Windows.Forms.ToolStripMenuItem mGlorieux;
+        private System.Windows.Forms.ToolStripMenuItem mysJoy1;
+        private System.Windows.Forms.ToolStripMenuItem mysJoy2;
+        private System.Windows.Forms.ToolStripMenuItem mysJoy3;
+        private System.Windows.Forms.ToolStripMenuItem mysJoy4;
+        private System.Windows.Forms.ToolStripMenuItem mysJoy5;
+        private System.Windows.Forms.ToolStripMenuItem mysLumi1;
+        private System.Windows.Forms.ToolStripMenuItem mysLumi2;
+        private System.Windows.Forms.ToolStripMenuItem mysLumi3;
+        private System.Windows.Forms.ToolStripMenuItem mysLumi4;
+        private System.Windows.Forms.ToolStripMenuItem mysLumi5;
+        private System.Windows.Forms.ToolStripMenuItem mysDou1;
+        private System.Windows.Forms.ToolStripMenuItem mysDou2;
+        private System.Windows.Forms.ToolStripMenuItem mysDou3;
+        private System.Windows.Forms.ToolStripMenuItem mysDou4;
+        private System.Windows.Forms.ToolStripMenuItem mysDou5;
+        private System.Windows.Forms.ToolStripMenuItem mysGlo1;
+        private System.Windows.Forms.ToolStripMenuItem mysGlo2;
+        private System.Windows.Forms.ToolStripMenuItem mysGlo3;
+        private System.Windows.Forms.ToolStripMenuItem mysGlo4;
+        private System.Windows.Forms.ToolStripMenuItem mysGlo5;
     }
 }
 
