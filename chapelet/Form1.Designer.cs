@@ -55,7 +55,7 @@ namespace chapelet
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.readPDF = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,6 +73,30 @@ namespace chapelet
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip4 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mJoyeux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysJoy5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mDouloureux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysDou5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mGlorieux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysGlo5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mLumineux = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysLumi5 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.prinicipalesPrièresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -81,12 +105,31 @@ namespace chapelet
             this.jeVousSalueMarieFR = new System.Windows.Forms.ToolStripMenuItem();
             this.gloireAuPere = new System.Windows.Forms.ToolStripMenuItem();
             this.jeConfesseADieu = new System.Windows.Forms.ToolStripMenuItem();
+            this.lesPrièresDuMatinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saintFrancoisDAssise = new System.Windows.Forms.ToolStripMenuItem();
+            this.sainteThereseDeLisieux = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereDuMatinAMarie = new System.Windows.Forms.ToolStripMenuItem();
+            this.prieresDuMatinASonAngeGardien = new System.Windows.Forms.ToolStripMenuItem();
+            this.sainteMereTeresa = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereDuMatin = new System.Windows.Forms.ToolStripMenuItem();
+            this.lesActesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeFoi = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDesperance = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeCharite = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeContrition = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeContritionI = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeContritionII = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeContritionIII = new System.Windows.Forms.ToolStripMenuItem();
+            this.acteDeContritionIV = new System.Windows.Forms.ToolStripMenuItem();
+            this.prierePourLaFrance = new System.Windows.Forms.ToolStripMenuItem();
             this.pourLesPlusGrandsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDeSaintJosephFR = new System.Windows.Forms.ToolStripMenuItem();
-            this.pourBienSeConfesserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laCheminDeCroixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereASaintJosepFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereaSaintJosephII = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereAuSaintPadrePio = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereaSaintAntoineDePadoue = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereASaintPaul = new System.Windows.Forms.ToolStripMenuItem();
+            this.priereSainteTherese = new System.Windows.Forms.ToolStripMenuItem();
+            this.stJosephStFrancois = new System.Windows.Forms.ToolStripMenuItem();
             this.les15OraisonsDeSainteBrigitteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.oraisonPremiere = new System.Windows.Forms.ToolStripMenuItem();
             this.oraisonSeconde = new System.Windows.Forms.ToolStripMenuItem();
@@ -103,66 +146,25 @@ namespace chapelet
             this.oraisonTreizieme = new System.Windows.Forms.ToolStripMenuItem();
             this.oraisonQuatorzieme = new System.Windows.Forms.ToolStripMenuItem();
             this.oraisonQuinzieme = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDePrecieuxSang = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDuChefSacreDeJesus = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDuSaintNomDeJesus = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDeSaintJosephFR = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDeLorette = new System.Windows.Forms.ToolStripMenuItem();
+            this.litaniesDesSaints = new System.Windows.Forms.ToolStripMenuItem();
+            this.litanieHenriGodin = new System.Windows.Forms.ToolStripMenuItem();
+            this.pourBienSeConfesserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laCheminDeCroixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.prièresEnLatinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.antiennesÀLaViergeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wypad = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.labelMail = new System.Windows.Forms.Label();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.panelLewyWewnatrz = new System.Windows.Forms.Panel();
-            this.lesPrièresDuMatinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saintFrancoisDAssise = new System.Windows.Forms.ToolStripMenuItem();
-            this.lesActesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeFoi = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDesperance = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeCharite = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeContrition = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeContritionI = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeContritionII = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeContritionIII = new System.Windows.Forms.ToolStripMenuItem();
-            this.acteDeContritionIV = new System.Windows.Forms.ToolStripMenuItem();
-            this.sainteThereseDeLisieux = new System.Windows.Forms.ToolStripMenuItem();
-            this.prierePourLaFrance = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereDuMatinAMarie = new System.Windows.Forms.ToolStripMenuItem();
-            this.prieresDuMatinASonAngeGardien = new System.Windows.Forms.ToolStripMenuItem();
-            this.sainteMereTeresa = new System.Windows.Forms.ToolStripMenuItem();
-            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereASaintJosepFR = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereAuSaintPadrePio = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereaSaintAntoineDePadoue = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereASaintPaul = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereaSaintJosephII = new System.Windows.Forms.ToolStripMenuItem();
-            this.priereSainteTherese = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDeLorette = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDePrecieuxSang = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDuChefSacreDeJesus = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDuSaintNomDeJesus = new System.Windows.Forms.ToolStripMenuItem();
-            this.litaniesDesSaints = new System.Windows.Forms.ToolStripMenuItem();
-            this.litanieHenriGodin = new System.Windows.Forms.ToolStripMenuItem();
-            this.mJoyeux = new System.Windows.Forms.ToolStripMenuItem();
-            this.mLumineux = new System.Windows.Forms.ToolStripMenuItem();
-            this.mDouloureux = new System.Windows.Forms.ToolStripMenuItem();
-            this.mGlorieux = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysJoy1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysJoy2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysJoy3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysJoy4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysJoy5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysLumi1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysLumi2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysLumi3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysLumi4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysLumi5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysDou1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysDou2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysDou3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysDou4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysDou5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysGlo1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysGlo2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysGlo3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysGlo4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysGlo5 = new System.Windows.Forms.ToolStripMenuItem();
             this.panelGora.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -390,23 +392,23 @@ namespace chapelet
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.customizeToolStripMenuItem,
+            this.readPDF,
             this.optionsToolStripMenuItem});
             this.toolsToolStripMenuItem.Font = new System.Drawing.Font("Book Antiqua", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(51, 22);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
-            // customizeToolStripMenuItem
+            // readPDF
             // 
-            this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.customizeToolStripMenuItem.Text = "&Customize";
+            this.readPDF.Name = "readPDF";
+            this.readPDF.Size = new System.Drawing.Size(131, 22);
+            this.readPDF.Text = "&PDF Read";
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.optionsToolStripMenuItem.Text = "&Options";
             // 
             // helpToolStripMenuItem
@@ -538,6 +540,174 @@ namespace chapelet
             this.toolStripMenuItem11.Size = new System.Drawing.Size(134, 27);
             this.toolStripMenuItem11.Text = " Le Chapelet";
             // 
+            // mJoyeux
+            // 
+            this.mJoyeux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysJoy1,
+            this.mysJoy2,
+            this.mysJoy3,
+            this.mysJoy4,
+            this.mysJoy5});
+            this.mJoyeux.Name = "mJoyeux";
+            this.mJoyeux.Size = new System.Drawing.Size(390, 28);
+            this.mJoyeux.Text = "Les mystères joyeux (lun/sam)";
+            // 
+            // mysJoy1
+            // 
+            this.mysJoy1.Name = "mysJoy1";
+            this.mysJoy1.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy1.Text = "L’Annonciation";
+            // 
+            // mysJoy2
+            // 
+            this.mysJoy2.Name = "mysJoy2";
+            this.mysJoy2.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy2.Text = "La Visitation";
+            // 
+            // mysJoy3
+            // 
+            this.mysJoy3.Name = "mysJoy3";
+            this.mysJoy3.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy3.Text = "La naissance de Jésus";
+            // 
+            // mysJoy4
+            // 
+            this.mysJoy4.Name = "mysJoy4";
+            this.mysJoy4.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy4.Text = "La Présentation de Jésus au Temple";
+            // 
+            // mysJoy5
+            // 
+            this.mysJoy5.Name = "mysJoy5";
+            this.mysJoy5.Size = new System.Drawing.Size(412, 28);
+            this.mysJoy5.Text = "Le Recouvrement de Jésus au Temple";
+            // 
+            // mDouloureux
+            // 
+            this.mDouloureux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysDou1,
+            this.mysDou2,
+            this.mysDou3,
+            this.mysDou4,
+            this.mysDou5});
+            this.mDouloureux.Name = "mDouloureux";
+            this.mDouloureux.Size = new System.Drawing.Size(390, 28);
+            this.mDouloureux.Text = "Les mystères douloureux (mar/ven)";
+            // 
+            // mysDou1
+            // 
+            this.mysDou1.Name = "mysDou1";
+            this.mysDou1.Size = new System.Drawing.Size(315, 28);
+            this.mysDou1.Text = "Gethsémani";
+            // 
+            // mysDou2
+            // 
+            this.mysDou2.Name = "mysDou2";
+            this.mysDou2.Size = new System.Drawing.Size(315, 28);
+            this.mysDou2.Text = "La flagellation";
+            // 
+            // mysDou3
+            // 
+            this.mysDou3.Name = "mysDou3";
+            this.mysDou3.Size = new System.Drawing.Size(315, 28);
+            this.mysDou3.Text = "Le couronnement d’épines";
+            // 
+            // mysDou4
+            // 
+            this.mysDou4.Name = "mysDou4";
+            this.mysDou4.Size = new System.Drawing.Size(315, 28);
+            this.mysDou4.Text = "Le portement de la croix";
+            // 
+            // mysDou5
+            // 
+            this.mysDou5.Name = "mysDou5";
+            this.mysDou5.Size = new System.Drawing.Size(315, 28);
+            this.mysDou5.Text = "La mort de Jésus en croix";
+            // 
+            // mGlorieux
+            // 
+            this.mGlorieux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysGlo1,
+            this.mysGlo2,
+            this.mysGlo3,
+            this.mysGlo4,
+            this.mysGlo5});
+            this.mGlorieux.Name = "mGlorieux";
+            this.mGlorieux.Size = new System.Drawing.Size(390, 28);
+            this.mGlorieux.Text = "Les mystères glorieux (mer/dim)";
+            // 
+            // mysGlo1
+            // 
+            this.mysGlo1.Name = "mysGlo1";
+            this.mysGlo1.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo1.Text = "La Résurrection";
+            // 
+            // mysGlo2
+            // 
+            this.mysGlo2.Name = "mysGlo2";
+            this.mysGlo2.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo2.Text = "Ascension";
+            // 
+            // mysGlo3
+            // 
+            this.mysGlo3.Name = "mysGlo3";
+            this.mysGlo3.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo3.Text = "La Pentecôte";
+            // 
+            // mysGlo4
+            // 
+            this.mysGlo4.Name = "mysGlo4";
+            this.mysGlo4.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo4.Text = "L’Elévation de la Sainte Vierge au ciel après sa mort";
+            // 
+            // mysGlo5
+            // 
+            this.mysGlo5.Name = "mysGlo5";
+            this.mysGlo5.Size = new System.Drawing.Size(537, 28);
+            this.mysGlo5.Text = "Le couronnement de la Vierge Marie";
+            // 
+            // mLumineux
+            // 
+            this.mLumineux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mysLumi1,
+            this.mysLumi2,
+            this.mysLumi3,
+            this.mysLumi4,
+            this.mysLumi5});
+            this.mLumineux.Name = "mLumineux";
+            this.mLumineux.Size = new System.Drawing.Size(390, 28);
+            this.mLumineux.Text = "Les mystères lumineux (jeudi)";
+            // 
+            // mysLumi1
+            // 
+            this.mysLumi1.Name = "mysLumi1";
+            this.mysLumi1.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi1.Text = "Le baptême de Jésus";
+            // 
+            // mysLumi2
+            // 
+            this.mysLumi2.Name = "mysLumi2";
+            this.mysLumi2.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi2.Text = "Les noces de Cana";
+            // 
+            // mysLumi3
+            // 
+            this.mysLumi3.Name = "mysLumi3";
+            this.mysLumi3.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi3.Text = "Jésus à la synagogue de Nazareth";
+            // 
+            // mysLumi4
+            // 
+            this.mysLumi4.Name = "mysLumi4";
+            this.mysLumi4.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi4.Text = "La Transfiguration";
+            // 
+            // mysLumi5
+            // 
+            this.mysLumi5.Name = "mysLumi5";
+            this.mysLumi5.Size = new System.Drawing.Size(375, 28);
+            this.mysLumi5.Text = "La Cène et l\'Eucharistie";
+            // 
             // menuStrip2
             // 
             this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -617,6 +787,124 @@ namespace chapelet
             this.jeConfesseADieu.Size = new System.Drawing.Size(263, 28);
             this.jeConfesseADieu.Text = "Je confesse à Dieu";
             // 
+            // lesPrièresDuMatinToolStripMenuItem
+            // 
+            this.lesPrièresDuMatinToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saintFrancoisDAssise,
+            this.sainteThereseDeLisieux,
+            this.priereDuMatinAMarie,
+            this.prieresDuMatinASonAngeGardien,
+            this.sainteMereTeresa,
+            this.priereDuMatin});
+            this.lesPrièresDuMatinToolStripMenuItem.Name = "lesPrièresDuMatinToolStripMenuItem";
+            this.lesPrièresDuMatinToolStripMenuItem.Size = new System.Drawing.Size(263, 28);
+            this.lesPrièresDuMatinToolStripMenuItem.Text = "Les prières du matin";
+            // 
+            // saintFrancoisDAssise
+            // 
+            this.saintFrancoisDAssise.Name = "saintFrancoisDAssise";
+            this.saintFrancoisDAssise.Size = new System.Drawing.Size(397, 28);
+            this.saintFrancoisDAssise.Text = "Saint François d’Assise";
+            // 
+            // sainteThereseDeLisieux
+            // 
+            this.sainteThereseDeLisieux.Name = "sainteThereseDeLisieux";
+            this.sainteThereseDeLisieux.Size = new System.Drawing.Size(397, 28);
+            this.sainteThereseDeLisieux.Text = "Sainte Thérèse de Lisieux";
+            // 
+            // priereDuMatinAMarie
+            // 
+            this.priereDuMatinAMarie.Name = "priereDuMatinAMarie";
+            this.priereDuMatinAMarie.Size = new System.Drawing.Size(397, 28);
+            this.priereDuMatinAMarie.Text = "Prière du matin à Marie";
+            // 
+            // prieresDuMatinASonAngeGardien
+            // 
+            this.prieresDuMatinASonAngeGardien.Name = "prieresDuMatinASonAngeGardien";
+            this.prieresDuMatinASonAngeGardien.Size = new System.Drawing.Size(397, 28);
+            this.prieresDuMatinASonAngeGardien.Text = "Prières du matin à son ange gardien";
+            // 
+            // sainteMereTeresa
+            // 
+            this.sainteMereTeresa.Name = "sainteMereTeresa";
+            this.sainteMereTeresa.Size = new System.Drawing.Size(397, 28);
+            this.sainteMereTeresa.Text = "Sainte mère Teresa";
+            // 
+            // priereDuMatin
+            // 
+            this.priereDuMatin.Name = "priereDuMatin";
+            this.priereDuMatin.Size = new System.Drawing.Size(397, 28);
+            this.priereDuMatin.Text = "Prière du matin";
+            // 
+            // lesActesToolStripMenuItem
+            // 
+            this.lesActesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acteDeFoi,
+            this.acteDesperance,
+            this.acteDeCharite,
+            this.acteDeContrition,
+            this.acteDeContritionI,
+            this.acteDeContritionII,
+            this.acteDeContritionIII,
+            this.acteDeContritionIV});
+            this.lesActesToolStripMenuItem.Name = "lesActesToolStripMenuItem";
+            this.lesActesToolStripMenuItem.Size = new System.Drawing.Size(263, 28);
+            this.lesActesToolStripMenuItem.Text = "Les actes";
+            // 
+            // acteDeFoi
+            // 
+            this.acteDeFoi.Name = "acteDeFoi";
+            this.acteDeFoi.Size = new System.Drawing.Size(263, 28);
+            this.acteDeFoi.Text = "Acte de foi";
+            // 
+            // acteDesperance
+            // 
+            this.acteDesperance.Name = "acteDesperance";
+            this.acteDesperance.Size = new System.Drawing.Size(263, 28);
+            this.acteDesperance.Text = "Acte d\'esperance";
+            // 
+            // acteDeCharite
+            // 
+            this.acteDeCharite.Name = "acteDeCharite";
+            this.acteDeCharite.Size = new System.Drawing.Size(263, 28);
+            this.acteDeCharite.Text = "Acte de charite";
+            // 
+            // acteDeContrition
+            // 
+            this.acteDeContrition.Name = "acteDeContrition";
+            this.acteDeContrition.Size = new System.Drawing.Size(263, 28);
+            this.acteDeContrition.Text = "Acte de contrition";
+            // 
+            // acteDeContritionI
+            // 
+            this.acteDeContritionI.Name = "acteDeContritionI";
+            this.acteDeContritionI.Size = new System.Drawing.Size(263, 28);
+            this.acteDeContritionI.Text = "Acte de contrition I";
+            // 
+            // acteDeContritionII
+            // 
+            this.acteDeContritionII.Name = "acteDeContritionII";
+            this.acteDeContritionII.Size = new System.Drawing.Size(263, 28);
+            this.acteDeContritionII.Text = "Acte de contrition II";
+            // 
+            // acteDeContritionIII
+            // 
+            this.acteDeContritionIII.Name = "acteDeContritionIII";
+            this.acteDeContritionIII.Size = new System.Drawing.Size(263, 28);
+            this.acteDeContritionIII.Text = "Acte de contrition III";
+            // 
+            // acteDeContritionIV
+            // 
+            this.acteDeContritionIV.Name = "acteDeContritionIV";
+            this.acteDeContritionIV.Size = new System.Drawing.Size(263, 28);
+            this.acteDeContritionIV.Text = "Acte de contrition IV";
+            // 
+            // prierePourLaFrance
+            // 
+            this.prierePourLaFrance.Name = "prierePourLaFrance";
+            this.prierePourLaFrance.Size = new System.Drawing.Size(263, 28);
+            this.prierePourLaFrance.Text = "Prière pour la France";
+            // 
             // pourLesPlusGrandsToolStripMenuItem
             // 
             this.pourLesPlusGrandsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -625,48 +913,53 @@ namespace chapelet
             this.priereAuSaintPadrePio,
             this.priereaSaintAntoineDePadoue,
             this.priereASaintPaul,
-            this.priereSainteTherese});
+            this.priereSainteTherese,
+            this.stJosephStFrancois});
             this.pourLesPlusGrandsToolStripMenuItem.Name = "pourLesPlusGrandsToolStripMenuItem";
             this.pourLesPlusGrandsToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
             this.pourLesPlusGrandsToolStripMenuItem.Text = "Prières aux saints";
             // 
-            // litaniesToolStripMenuItem
+            // priereASaintJosepFR
             // 
-            this.litaniesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.litaniesDePrecieuxSang,
-            this.litaniesDuChefSacreDeJesus,
-            this.litaniesDuSaintNomDeJesus,
-            this.litaniesDeSaintJosephFR,
-            this.litaniesDeLorette,
-            this.litaniesDesSaints,
-            this.litanieHenriGodin});
-            this.litaniesToolStripMenuItem.Name = "litaniesToolStripMenuItem";
-            this.litaniesToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
-            this.litaniesToolStripMenuItem.Text = "Litanies";
+            this.priereASaintJosepFR.Name = "priereASaintJosepFR";
+            this.priereASaintJosepFR.Size = new System.Drawing.Size(511, 28);
+            this.priereASaintJosepFR.Text = "Prière à saint Joseph I";
             // 
-            // litaniesDeSaintJosephFR
+            // priereaSaintJosephII
             // 
-            this.litaniesDeSaintJosephFR.Name = "litaniesDeSaintJosephFR";
-            this.litaniesDeSaintJosephFR.Size = new System.Drawing.Size(531, 28);
-            this.litaniesDeSaintJosephFR.Text = "Litanies de saint Joseph";
+            this.priereaSaintJosephII.Name = "priereaSaintJosephII";
+            this.priereaSaintJosephII.Size = new System.Drawing.Size(511, 28);
+            this.priereaSaintJosephII.Text = "Prière à saint Joseph II";
             // 
-            // pourBienSeConfesserToolStripMenuItem
+            // priereAuSaintPadrePio
             // 
-            this.pourBienSeConfesserToolStripMenuItem.Name = "pourBienSeConfesserToolStripMenuItem";
-            this.pourBienSeConfesserToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
-            this.pourBienSeConfesserToolStripMenuItem.Text = "Pour bien se confesser";
+            this.priereAuSaintPadrePio.Name = "priereAuSaintPadrePio";
+            this.priereAuSaintPadrePio.Size = new System.Drawing.Size(511, 28);
+            this.priereAuSaintPadrePio.Text = "Prière au saint Padre Pio";
             // 
-            // laCommunionEtLadorationEucharistiqueToolStripMenuItem
+            // priereaSaintAntoineDePadoue
             // 
-            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Name = "laCommunionEtLadorationEucharistiqueToolStripMenuItem";
-            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
-            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Text = "La communion et l\'adoration Eucharistique";
+            this.priereaSaintAntoineDePadoue.Name = "priereaSaintAntoineDePadoue";
+            this.priereaSaintAntoineDePadoue.Size = new System.Drawing.Size(511, 28);
+            this.priereaSaintAntoineDePadoue.Text = "Prière à Saint Antoine de Padoue";
             // 
-            // laCheminDeCroixToolStripMenuItem
+            // priereASaintPaul
             // 
-            this.laCheminDeCroixToolStripMenuItem.Name = "laCheminDeCroixToolStripMenuItem";
-            this.laCheminDeCroixToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
-            this.laCheminDeCroixToolStripMenuItem.Text = "La chemin de Croix";
+            this.priereASaintPaul.Name = "priereASaintPaul";
+            this.priereASaintPaul.Size = new System.Drawing.Size(511, 28);
+            this.priereASaintPaul.Text = "Prière à Saint Paul";
+            // 
+            // priereSainteTherese
+            // 
+            this.priereSainteTherese.Name = "priereSainteTherese";
+            this.priereSainteTherese.Size = new System.Drawing.Size(511, 28);
+            this.priereSainteTherese.Text = "Prière à sainte Thérèse de Lisieux";
+            // 
+            // stJosephStFrancois
+            // 
+            this.stJosephStFrancois.Name = "stJosephStFrancois";
+            this.stJosephStFrancois.Size = new System.Drawing.Size(511, 28);
+            this.stJosephStFrancois.Text = "Prière à Saint-Joseph (de Saint-François de Sales)";
             // 
             // les15OraisonsDeSainteBrigitteToolStripMenuItem1
             // 
@@ -780,6 +1073,80 @@ namespace chapelet
             this.oraisonQuinzieme.Size = new System.Drawing.Size(265, 28);
             this.oraisonQuinzieme.Text = "Quinzième oraison";
             // 
+            // litaniesToolStripMenuItem
+            // 
+            this.litaniesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.litaniesDePrecieuxSang,
+            this.litaniesDuChefSacreDeJesus,
+            this.litaniesDuSaintNomDeJesus,
+            this.litaniesDeSaintJosephFR,
+            this.litaniesDeLorette,
+            this.litaniesDesSaints,
+            this.litanieHenriGodin});
+            this.litaniesToolStripMenuItem.Name = "litaniesToolStripMenuItem";
+            this.litaniesToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.litaniesToolStripMenuItem.Text = "Litanies";
+            // 
+            // litaniesDePrecieuxSang
+            // 
+            this.litaniesDePrecieuxSang.Name = "litaniesDePrecieuxSang";
+            this.litaniesDePrecieuxSang.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDePrecieuxSang.Text = "Litanies de Précieux Sang";
+            // 
+            // litaniesDuChefSacreDeJesus
+            // 
+            this.litaniesDuChefSacreDeJesus.Name = "litaniesDuChefSacreDeJesus";
+            this.litaniesDuChefSacreDeJesus.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDuChefSacreDeJesus.Text = "Litanies du Chef Sacré de Jésus";
+            // 
+            // litaniesDuSaintNomDeJesus
+            // 
+            this.litaniesDuSaintNomDeJesus.Name = "litaniesDuSaintNomDeJesus";
+            this.litaniesDuSaintNomDeJesus.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDuSaintNomDeJesus.Text = "Litanies du Saint Nom de Jésus";
+            // 
+            // litaniesDeSaintJosephFR
+            // 
+            this.litaniesDeSaintJosephFR.Name = "litaniesDeSaintJosephFR";
+            this.litaniesDeSaintJosephFR.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDeSaintJosephFR.Text = "Litanies de saint Joseph";
+            // 
+            // litaniesDeLorette
+            // 
+            this.litaniesDeLorette.Name = "litaniesDeLorette";
+            this.litaniesDeLorette.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDeLorette.Text = "Litanies de Lorette";
+            // 
+            // litaniesDesSaints
+            // 
+            this.litaniesDesSaints.Name = "litaniesDesSaints";
+            this.litaniesDesSaints.Size = new System.Drawing.Size(531, 28);
+            this.litaniesDesSaints.Text = "Litanies des saints";
+            // 
+            // litanieHenriGodin
+            // 
+            this.litanieHenriGodin.Name = "litanieHenriGodin";
+            this.litanieHenriGodin.Size = new System.Drawing.Size(531, 28);
+            this.litanieHenriGodin.Text = "Litanie des saints de tous les jours par Henri Godin";
+            // 
+            // pourBienSeConfesserToolStripMenuItem
+            // 
+            this.pourBienSeConfesserToolStripMenuItem.Name = "pourBienSeConfesserToolStripMenuItem";
+            this.pourBienSeConfesserToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.pourBienSeConfesserToolStripMenuItem.Text = "Pour bien se confesser";
+            // 
+            // laCommunionEtLadorationEucharistiqueToolStripMenuItem
+            // 
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Name = "laCommunionEtLadorationEucharistiqueToolStripMenuItem";
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.laCommunionEtLadorationEucharistiqueToolStripMenuItem.Text = "La communion et l\'adoration Eucharistique";
+            // 
+            // laCheminDeCroixToolStripMenuItem
+            // 
+            this.laCheminDeCroixToolStripMenuItem.Name = "laCheminDeCroixToolStripMenuItem";
+            this.laCheminDeCroixToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.laCheminDeCroixToolStripMenuItem.Text = "La chemin de Croix";
+            // 
             // prièresEnLatinToolStripMenuItem
             // 
             this.prièresEnLatinToolStripMenuItem.Name = "prièresEnLatinToolStripMenuItem";
@@ -791,6 +1158,12 @@ namespace chapelet
             this.antiennesÀLaViergeToolStripMenuItem.Name = "antiennesÀLaViergeToolStripMenuItem";
             this.antiennesÀLaViergeToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
             this.antiennesÀLaViergeToolStripMenuItem.Text = "Antiennes à la Vierge";
+            // 
+            // prièresAuxArchangesEtAuxAngesToolStripMenuItem
+            // 
+            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem.Name = "prièresAuxArchangesEtAuxAngesToolStripMenuItem";
+            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
+            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem.Text = "Prières aux archanges et aux anges";
             // 
             // wypad
             // 
@@ -842,363 +1215,6 @@ namespace chapelet
             this.panelLewyWewnatrz.Name = "panelLewyWewnatrz";
             this.panelLewyWewnatrz.Size = new System.Drawing.Size(227, 281);
             this.panelLewyWewnatrz.TabIndex = 2;
-            // 
-            // lesPrièresDuMatinToolStripMenuItem
-            // 
-            this.lesPrièresDuMatinToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saintFrancoisDAssise,
-            this.sainteThereseDeLisieux,
-            this.priereDuMatinAMarie,
-            this.prieresDuMatinASonAngeGardien,
-            this.sainteMereTeresa});
-            this.lesPrièresDuMatinToolStripMenuItem.Name = "lesPrièresDuMatinToolStripMenuItem";
-            this.lesPrièresDuMatinToolStripMenuItem.Size = new System.Drawing.Size(263, 28);
-            this.lesPrièresDuMatinToolStripMenuItem.Text = "Les prières du matin";
-            // 
-            // saintFrancoisDAssise
-            // 
-            this.saintFrancoisDAssise.Name = "saintFrancoisDAssise";
-            this.saintFrancoisDAssise.Size = new System.Drawing.Size(397, 28);
-            this.saintFrancoisDAssise.Text = "Saint François d’Assise";
-            // 
-            // lesActesToolStripMenuItem
-            // 
-            this.lesActesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.acteDeFoi,
-            this.acteDesperance,
-            this.acteDeCharite,
-            this.acteDeContrition,
-            this.acteDeContritionI,
-            this.acteDeContritionII,
-            this.acteDeContritionIII,
-            this.acteDeContritionIV});
-            this.lesActesToolStripMenuItem.Name = "lesActesToolStripMenuItem";
-            this.lesActesToolStripMenuItem.Size = new System.Drawing.Size(263, 28);
-            this.lesActesToolStripMenuItem.Text = "Les actes";
-            // 
-            // acteDeFoi
-            // 
-            this.acteDeFoi.Name = "acteDeFoi";
-            this.acteDeFoi.Size = new System.Drawing.Size(263, 28);
-            this.acteDeFoi.Text = "Acte de foi";
-            // 
-            // acteDesperance
-            // 
-            this.acteDesperance.Name = "acteDesperance";
-            this.acteDesperance.Size = new System.Drawing.Size(263, 28);
-            this.acteDesperance.Text = "Acte d\'esperance";
-            // 
-            // acteDeCharite
-            // 
-            this.acteDeCharite.Name = "acteDeCharite";
-            this.acteDeCharite.Size = new System.Drawing.Size(263, 28);
-            this.acteDeCharite.Text = "Acte de charite";
-            // 
-            // acteDeContrition
-            // 
-            this.acteDeContrition.Name = "acteDeContrition";
-            this.acteDeContrition.Size = new System.Drawing.Size(263, 28);
-            this.acteDeContrition.Text = "Acte de contrition";
-            // 
-            // acteDeContritionI
-            // 
-            this.acteDeContritionI.Name = "acteDeContritionI";
-            this.acteDeContritionI.Size = new System.Drawing.Size(263, 28);
-            this.acteDeContritionI.Text = "Acte de contrition I";
-            // 
-            // acteDeContritionII
-            // 
-            this.acteDeContritionII.Name = "acteDeContritionII";
-            this.acteDeContritionII.Size = new System.Drawing.Size(263, 28);
-            this.acteDeContritionII.Text = "Acte de contrition II";
-            // 
-            // acteDeContritionIII
-            // 
-            this.acteDeContritionIII.Name = "acteDeContritionIII";
-            this.acteDeContritionIII.Size = new System.Drawing.Size(263, 28);
-            this.acteDeContritionIII.Text = "Acte de contrition III";
-            // 
-            // acteDeContritionIV
-            // 
-            this.acteDeContritionIV.Name = "acteDeContritionIV";
-            this.acteDeContritionIV.Size = new System.Drawing.Size(263, 28);
-            this.acteDeContritionIV.Text = "Acte de contrition IV";
-            // 
-            // sainteThereseDeLisieux
-            // 
-            this.sainteThereseDeLisieux.Name = "sainteThereseDeLisieux";
-            this.sainteThereseDeLisieux.Size = new System.Drawing.Size(397, 28);
-            this.sainteThereseDeLisieux.Text = "Sainte Thérèse de Lisieux";
-            // 
-            // prierePourLaFrance
-            // 
-            this.prierePourLaFrance.Name = "prierePourLaFrance";
-            this.prierePourLaFrance.Size = new System.Drawing.Size(263, 28);
-            this.prierePourLaFrance.Text = "Prière pour la France";
-            // 
-            // priereDuMatinAMarie
-            // 
-            this.priereDuMatinAMarie.Name = "priereDuMatinAMarie";
-            this.priereDuMatinAMarie.Size = new System.Drawing.Size(397, 28);
-            this.priereDuMatinAMarie.Text = "Prière du matin à Marie";
-            // 
-            // prieresDuMatinASonAngeGardien
-            // 
-            this.prieresDuMatinASonAngeGardien.Name = "prieresDuMatinASonAngeGardien";
-            this.prieresDuMatinASonAngeGardien.Size = new System.Drawing.Size(397, 28);
-            this.prieresDuMatinASonAngeGardien.Text = "Prières du matin à son ange gardien";
-            // 
-            // sainteMereTeresa
-            // 
-            this.sainteMereTeresa.Name = "sainteMereTeresa";
-            this.sainteMereTeresa.Size = new System.Drawing.Size(397, 28);
-            this.sainteMereTeresa.Text = "Sainte mère Teresa";
-            // 
-            // prièresAuxArchangesEtAuxAngesToolStripMenuItem
-            // 
-            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem.Name = "prièresAuxArchangesEtAuxAngesToolStripMenuItem";
-            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem.Size = new System.Drawing.Size(460, 28);
-            this.prièresAuxArchangesEtAuxAngesToolStripMenuItem.Text = "Prières aux archanges et aux anges";
-            // 
-            // priereASaintJosepFR
-            // 
-            this.priereASaintJosepFR.Name = "priereASaintJosepFR";
-            this.priereASaintJosepFR.Size = new System.Drawing.Size(375, 28);
-            this.priereASaintJosepFR.Text = "Prière à saint Joseph I";
-            // 
-            // priereAuSaintPadrePio
-            // 
-            this.priereAuSaintPadrePio.Name = "priereAuSaintPadrePio";
-            this.priereAuSaintPadrePio.Size = new System.Drawing.Size(375, 28);
-            this.priereAuSaintPadrePio.Text = "Prière au saint Padre Pio";
-            // 
-            // priereaSaintAntoineDePadoue
-            // 
-            this.priereaSaintAntoineDePadoue.Name = "priereaSaintAntoineDePadoue";
-            this.priereaSaintAntoineDePadoue.Size = new System.Drawing.Size(375, 28);
-            this.priereaSaintAntoineDePadoue.Text = "Prière à Saint Antoine de Padoue";
-            // 
-            // priereASaintPaul
-            // 
-            this.priereASaintPaul.Name = "priereASaintPaul";
-            this.priereASaintPaul.Size = new System.Drawing.Size(375, 28);
-            this.priereASaintPaul.Text = "Prière à Saint Paul";
-            // 
-            // priereaSaintJosephII
-            // 
-            this.priereaSaintJosephII.Name = "priereaSaintJosephII";
-            this.priereaSaintJosephII.Size = new System.Drawing.Size(375, 28);
-            this.priereaSaintJosephII.Text = "Prière à saint Joseph II";
-            // 
-            // priereSainteTherese
-            // 
-            this.priereSainteTherese.Name = "priereSainteTherese";
-            this.priereSainteTherese.Size = new System.Drawing.Size(375, 28);
-            this.priereSainteTherese.Text = "Prière à sainte Thérèse de Lisieux";
-            // 
-            // litaniesDeLorette
-            // 
-            this.litaniesDeLorette.Name = "litaniesDeLorette";
-            this.litaniesDeLorette.Size = new System.Drawing.Size(531, 28);
-            this.litaniesDeLorette.Text = "Litanies de Lorette";
-            // 
-            // litaniesDePrecieuxSang
-            // 
-            this.litaniesDePrecieuxSang.Name = "litaniesDePrecieuxSang";
-            this.litaniesDePrecieuxSang.Size = new System.Drawing.Size(531, 28);
-            this.litaniesDePrecieuxSang.Text = "Litanies de Précieux Sang";
-            // 
-            // litaniesDuChefSacreDeJesus
-            // 
-            this.litaniesDuChefSacreDeJesus.Name = "litaniesDuChefSacreDeJesus";
-            this.litaniesDuChefSacreDeJesus.Size = new System.Drawing.Size(531, 28);
-            this.litaniesDuChefSacreDeJesus.Text = "Litanies du Chef Sacré de Jésus";
-            // 
-            // litaniesDuSaintNomDeJesus
-            // 
-            this.litaniesDuSaintNomDeJesus.Name = "litaniesDuSaintNomDeJesus";
-            this.litaniesDuSaintNomDeJesus.Size = new System.Drawing.Size(531, 28);
-            this.litaniesDuSaintNomDeJesus.Text = "Litanies du Saint Nom de Jésus";
-            // 
-            // litaniesDesSaints
-            // 
-            this.litaniesDesSaints.Name = "litaniesDesSaints";
-            this.litaniesDesSaints.Size = new System.Drawing.Size(531, 28);
-            this.litaniesDesSaints.Text = "Litanies des saints";
-            // 
-            // litanieHenriGodin
-            // 
-            this.litanieHenriGodin.Name = "litanieHenriGodin";
-            this.litanieHenriGodin.Size = new System.Drawing.Size(531, 28);
-            this.litanieHenriGodin.Text = "Litanie des saints de tous les jours par Henri Godin";
-            // 
-            // mJoyeux
-            // 
-            this.mJoyeux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mysJoy1,
-            this.mysJoy2,
-            this.mysJoy3,
-            this.mysJoy4,
-            this.mysJoy5});
-            this.mJoyeux.Name = "mJoyeux";
-            this.mJoyeux.Size = new System.Drawing.Size(390, 28);
-            this.mJoyeux.Text = "Les mystères joyeux (lun/sam)";
-            // 
-            // mLumineux
-            // 
-            this.mLumineux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mysLumi1,
-            this.mysLumi2,
-            this.mysLumi3,
-            this.mysLumi4,
-            this.mysLumi5});
-            this.mLumineux.Name = "mLumineux";
-            this.mLumineux.Size = new System.Drawing.Size(390, 28);
-            this.mLumineux.Text = "Les mystères lumineux (jeudi)";
-            // 
-            // mDouloureux
-            // 
-            this.mDouloureux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mysDou1,
-            this.mysDou2,
-            this.mysDou3,
-            this.mysDou4,
-            this.mysDou5});
-            this.mDouloureux.Name = "mDouloureux";
-            this.mDouloureux.Size = new System.Drawing.Size(390, 28);
-            this.mDouloureux.Text = "Les mystères douloureux (mar/ven)";
-            // 
-            // mGlorieux
-            // 
-            this.mGlorieux.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mysGlo1,
-            this.mysGlo2,
-            this.mysGlo3,
-            this.mysGlo4,
-            this.mysGlo5});
-            this.mGlorieux.Name = "mGlorieux";
-            this.mGlorieux.Size = new System.Drawing.Size(390, 28);
-            this.mGlorieux.Text = "Les mystères glorieux (mer/dim)";
-            // 
-            // mysJoy1
-            // 
-            this.mysJoy1.Name = "mysJoy1";
-            this.mysJoy1.Size = new System.Drawing.Size(412, 28);
-            this.mysJoy1.Text = "L’Annonciation";
-            // 
-            // mysJoy2
-            // 
-            this.mysJoy2.Name = "mysJoy2";
-            this.mysJoy2.Size = new System.Drawing.Size(412, 28);
-            this.mysJoy2.Text = "La Visitation";
-            // 
-            // mysJoy3
-            // 
-            this.mysJoy3.Name = "mysJoy3";
-            this.mysJoy3.Size = new System.Drawing.Size(412, 28);
-            this.mysJoy3.Text = "La naissance de Jésus";
-            // 
-            // mysJoy4
-            // 
-            this.mysJoy4.Name = "mysJoy4";
-            this.mysJoy4.Size = new System.Drawing.Size(412, 28);
-            this.mysJoy4.Text = "La Présentation de Jésus au Temple";
-            // 
-            // mysJoy5
-            // 
-            this.mysJoy5.Name = "mysJoy5";
-            this.mysJoy5.Size = new System.Drawing.Size(412, 28);
-            this.mysJoy5.Text = "Le Recouvrement de Jésus au Temple";
-            // 
-            // mysLumi1
-            // 
-            this.mysLumi1.Name = "mysLumi1";
-            this.mysLumi1.Size = new System.Drawing.Size(375, 28);
-            this.mysLumi1.Text = "Le baptême de Jésus";
-            // 
-            // mysLumi2
-            // 
-            this.mysLumi2.Name = "mysLumi2";
-            this.mysLumi2.Size = new System.Drawing.Size(375, 28);
-            this.mysLumi2.Text = "Les noces de Cana";
-            // 
-            // mysLumi3
-            // 
-            this.mysLumi3.Name = "mysLumi3";
-            this.mysLumi3.Size = new System.Drawing.Size(375, 28);
-            this.mysLumi3.Text = "Jésus à la synagogue de Nazareth";
-            // 
-            // mysLumi4
-            // 
-            this.mysLumi4.Name = "mysLumi4";
-            this.mysLumi4.Size = new System.Drawing.Size(375, 28);
-            this.mysLumi4.Text = "La Transfiguration";
-            // 
-            // mysLumi5
-            // 
-            this.mysLumi5.Name = "mysLumi5";
-            this.mysLumi5.Size = new System.Drawing.Size(375, 28);
-            this.mysLumi5.Text = "La Cène et l\'Eucharistie";
-            // 
-            // mysDou1
-            // 
-            this.mysDou1.Name = "mysDou1";
-            this.mysDou1.Size = new System.Drawing.Size(315, 28);
-            this.mysDou1.Text = "Gethsémani";
-            // 
-            // mysDou2
-            // 
-            this.mysDou2.Name = "mysDou2";
-            this.mysDou2.Size = new System.Drawing.Size(315, 28);
-            this.mysDou2.Text = "La flagellation";
-            // 
-            // mysDou3
-            // 
-            this.mysDou3.Name = "mysDou3";
-            this.mysDou3.Size = new System.Drawing.Size(315, 28);
-            this.mysDou3.Text = "Le couronnement d’épines";
-            // 
-            // mysDou4
-            // 
-            this.mysDou4.Name = "mysDou4";
-            this.mysDou4.Size = new System.Drawing.Size(315, 28);
-            this.mysDou4.Text = "Le portement de la croix";
-            // 
-            // mysDou5
-            // 
-            this.mysDou5.Name = "mysDou5";
-            this.mysDou5.Size = new System.Drawing.Size(315, 28);
-            this.mysDou5.Text = "La mort de Jésus en croix";
-            // 
-            // mysGlo1
-            // 
-            this.mysGlo1.Name = "mysGlo1";
-            this.mysGlo1.Size = new System.Drawing.Size(537, 28);
-            this.mysGlo1.Text = "La Résurrection";
-            // 
-            // mysGlo2
-            // 
-            this.mysGlo2.Name = "mysGlo2";
-            this.mysGlo2.Size = new System.Drawing.Size(537, 28);
-            this.mysGlo2.Text = "Ascension";
-            // 
-            // mysGlo3
-            // 
-            this.mysGlo3.Name = "mysGlo3";
-            this.mysGlo3.Size = new System.Drawing.Size(537, 28);
-            this.mysGlo3.Text = "La Pentecôte";
-            // 
-            // mysGlo4
-            // 
-            this.mysGlo4.Name = "mysGlo4";
-            this.mysGlo4.Size = new System.Drawing.Size(537, 28);
-            this.mysGlo4.Text = "L’Elévation de la Sainte Vierge au ciel après sa mort";
-            // 
-            // mysGlo5
-            // 
-            this.mysGlo5.Name = "mysGlo5";
-            this.mysGlo5.Size = new System.Drawing.Size(537, 28);
-            this.mysGlo5.Text = "Le couronnement de la Vierge Marie";
             // 
             // Form1
             // 
@@ -1274,7 +1290,7 @@ namespace chapelet
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem customizeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem readPDF;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contentsToolStripMenuItem;
@@ -1368,6 +1384,8 @@ namespace chapelet
         private System.Windows.Forms.ToolStripMenuItem mysGlo3;
         private System.Windows.Forms.ToolStripMenuItem mysGlo4;
         private System.Windows.Forms.ToolStripMenuItem mysGlo5;
+        private System.Windows.Forms.ToolStripMenuItem priereDuMatin;
+        private System.Windows.Forms.ToolStripMenuItem stJosephStFrancois;
     }
 }
 

@@ -312,7 +312,29 @@ namespace chapelet.Repo
                 myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
             }
         }
+        
+        public static void PriereDuMatin_Click(object s, EventArgs e)
+        {
+            con = new DBConn();
+            con.SqlQuery("SELECT priere FROM francais where id='68' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
+            {
+                myForm.richTextBox1.ReadOnly = true;
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
+            }
+        }
 
-
+        public static void StJosephStFrancois_Click(object s, EventArgs e)
+        {
+            con = new DBConn();
+            con.SqlQuery("SELECT priere FROM francais where id='69' ");
+            myForm.richTextBox1.Clear();
+            foreach (DataRow dr in con.QueryEx().Rows)
+            {
+                myForm.richTextBox1.ReadOnly = true;
+                myForm.richTextBox1.AppendText("\n🕀\n\n" + dr[0].ToString().Trim());
+            }
+        }
     }
 }

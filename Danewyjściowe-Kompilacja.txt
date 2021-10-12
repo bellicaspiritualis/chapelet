@@ -1,0 +1,5 @@
+﻿Rozpoczęto kompilację...
+1>------ Kompilacja rozpoczęta: Projekt: chapelet, Konfiguracja: Debug Any CPU ------
+1>  Odwołanie COM „AcroPDFLib” jest zestawem międzyoperacyjnym dla kontrolki ActiveX „AxAcroPDFLib”, ale zostało wybrane do połączenia przez kompilator przy użyciu flagi /link. To odwołanie COM jest traktowane jako odwołanie i nie zostanie połączone.
+1>  chapelet -> C:\Users\PC\source\repos\chapelet_sn\chapelet\bin\Debug\chapelet.exe
+========== Kompilacja: 1 zakończono powodzeniem, 0 zakończono niepowodzeniem, 0 zaktualizowano, 0 pominięto ==========

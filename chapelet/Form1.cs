@@ -1,26 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using PdfSharp;
 
 namespace chapelet
 {
+    
     public partial class Form1 : Form
     {
         public DBConn con;
+        //PdfiumViewer.PdfViewer pdf;
 
-        //richTextBox1.Clear();
 
         public Form1()
         {
             InitializeComponent();
-            
+
+            richTextBox1.Clear();
+
+
+            readPDF.Click += Repo.PDFTools.PDFRead_Click;
+
+
             panelBttClose.Click += BorderStyle.PanelBttClose_Click;
             panelBttMin.Click += BorderStyle.PanelBttMin_Click;
 
@@ -49,6 +53,8 @@ namespace chapelet
             priereASaintPaul.Click += Repo.PrincipalesPrieres.StPaul_Click;
             priereaSaintJosephII.Click += Repo.PrincipalesPrieres.StJosephII_Click;
             priereSainteTherese.Click += Repo.PrincipalesPrieres.PriereSainteTherese_Click;
+            priereDuMatin.Click += Repo.PrincipalesPrieres.PriereDuMatin_Click;
+            stJosephStFrancois.Click += Repo.PrincipalesPrieres.StJosephStFrancois_Click;
 
             litaniesDeSaintJosephFR.Click += Repo.Litanies.LitaniesDeStJosephFR_Click;
             litaniesDeLorette.Click += Repo.Litanies.LitaniesDeLorette_Click;
